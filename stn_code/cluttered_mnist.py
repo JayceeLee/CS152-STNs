@@ -16,9 +16,18 @@ import tensorflow as tf
 from spatial_transformer import transformer
 import numpy as np
 from tf_utils import weight_variable, bias_variable, dense_to_one_hot
+import os
+
 
 # %% Load data
-mnist_cluttered = np.load('./data/mnist_sequence1_sample_5distortions5x5.npz')
+# May need to modify this path depending on which file you are running this file from
+
+# Below path works if you are in CS152-STN folder
+mnist_cluttered = np.load(os.path.join('stn_code','data','mnist_sequence1_sample_5distortions5x5.npz'))
+
+# Below path works if you are in stn_code folder
+# mnist_cluttered = np.load(os.path.join('.','data','mnist_sequence1_sample_5distortions5x5.npz'))
+
 
 X_train = mnist_cluttered['X_train']
 y_train = mnist_cluttered['y_train']
@@ -172,3 +181,4 @@ for epoch_i in range(n_epochs):
     theta = sess.run(h_fc_loc2, feed_dict={
            x: batch_xs, keep_prob: 1.0})
     print(theta[0])
+print(theta[0])
