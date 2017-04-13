@@ -17,13 +17,14 @@ import tensorflow as tf
 from spatial_transformer import transformer
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 
 print("Using tensorflow function", tf.__version__)
 
 # %% Create a batch of three images (1600 x 1200)
 # %% Image retrieved from:
 # %% https://raw.githubusercontent.com/skaae/transformer_network/master/cat.jpg
-im = ndimage.imread(os.path.join('stn_code','data','cat.jpg'))
+im = ndimage.imread(os.path.join('data','cat.jpg'))
 im = im / 255.
 im = im.reshape(1, 1200, 1600, 3)
 im = im.astype('float32')
