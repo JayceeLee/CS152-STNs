@@ -8,7 +8,7 @@ import os
 
 print("Using tensorflow version", tf.__version__)
 
-# Load MNIST Data
+#### Load MNIST Data ####
 mnist_cluttered = np.load(os.path.join('stn_code','data','mnist_sequence1_sample_5distortions5x5.npz'))
 
 # Get Train and Test Sets from MNIST array
@@ -21,56 +21,70 @@ X_test = mnist_cluttered['X_test']
 y_test = dense_to_one_hot(mnist_cluttered['y_test'], n_classes=10)
 
 # Show an image to make sure it is working
-plt.imshow(np.reshape(X_train[0], (40,40)))
-plt.show()
+# plt.imshow(np.reshape(X_train[0], (40,40)))
+# plt.show()
 
-# Create Graph representation of network
+#### Create Graph representation of network ####
 
 # Placeholders for 40x40 resolution image
 x = tf.placeholder(tf.float32, [None, 1600])
-y = tf.placeholder(tf.float32, [None, 10])
+y = tf.placeholder(tf.float32, [None, 1600])
+
+# Reshape input image into 4D tensor in order to get it to work
+# Not sure why it has to be 4D...?
+x_tensor = tf.reshape(x, [-1, 40, 40, 1])
+
+### Localization Network ###
+
+# Set up 2-layer localization network to find parameters 
+# for affine transformation of the input.
+
+# Start with identify transformation - cast to float32 type and flatten
+initial = np.array([[1., 0, 0], [0, 1., 0]]).astype('float32').flatten()
+
+# Create variables for Layer 1
+W_fc_loc1 = tf.Variable(tf.zeros([1600, 20])) # weight variable
+b_fc_loc1 = tf.Variable(tf.random_normal([20], mean=0.0, stddev=0.01)) # bias variable
+
+# Create variables for Layer 2
+W_fc_loc2 = tf.Variable(tf.zeros([20, 6]))
+b_fc_loc2 = tf.Variable(initial_value=initial, name='b_fc_loc2')
+
+# Create the localization network (Using fully-connect network)
+
+# Output of layer 1: h1 = tanh(X*w1 + b1)
+h_fc_loc1 = tf.nn.tanh(tf.matmul(x, W_fc_loc1) + b_fc_loc1)
+
+# Apply dropout layer to reduce overfitting
+# h1_drop = dropout(h)
+keep_prob = tf.placeholder(tf.float32)
+h_fc_loc1_drop = tf.nn.dropout(h_fc_loc1, keep_prob)
+
+# Output of layer 2: h = tanh(h1_drop * w2 + b2)
+h_fc_loc2 = tf.nn.tanh(tf.matmul(h_fc_loc1_drop, W_fc_loc2) + b_fc_loc2)
+
+# Create Spatial Transformer Module to identify discriminative patches
+# transformer() takes care of Parameterized Sampling Grid and Differentiable Image Sampling
+out_size = (40, 40)
+h_trans = transformer(x_tensor, h_fc_loc2, out_size)
 
 
 
-# Create a batch of three images (1600 x 1200)
-# Image retrieved from:
-#  https://raw.githubusercontent.com/skaae/transformer_network/master/cat.jpg
-im = ndimage.imread(os.path.join('stn_code','data','cat.jpg'))
-im = im / 255.
-im = im.reshape(1, 1200, 1600, 3)
-im = im.astype('float32')
-
-#  Let the output size of the transformer be half the image size.
-out_size = (600, 800)
 
 #  Simulate batch
-batch = np.append(im, im, axis=0)
-batch = np.append(batch, im, axis=0)
-num_batch = 3
+batch = X_train[0]
+batch = np.reshape(batch, (1,1600))
+# batch = np.append(batch, X_train[0], axis=0)
+# batch = np.append(batch, X_train[0], axis=0)
+batch2 = X_train[0]
+batch2 = np.reshape(batch2, (1,1600))
 
-x = tf.placeholder(tf.float32, [None, 1200, 1600, 3])
-x = tf.cast(batch, 'float32')
-
-#  Create localisation network and convolutional layer
-with tf.variable_scope('spatial_transformer_0'):
-
-    #  Create a fully-connected layer with 6 output nodes
-    n_fc = 6
-    W_fc1 = tf.Variable(tf.zeros([1200 * 1600 * 3, n_fc]), name='W_fc1')
-
-    #  Zoom into the image
-    initial = np.array([[0.5, 0, 0], [0, 0.5, 0]])
-    initial = initial.astype('float32')
-    initial = initial.flatten()
-
-    b_fc1 = tf.Variable(initial_value=initial, name='b_fc1')
-    h_fc1 = tf.matmul(tf.zeros([num_batch, 1200 * 1600 * 3]), W_fc1) + b_fc1
-    h_trans = transformer(x, h_fc1, out_size)
+num_batch = 1
 
 #  Run session
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
-y = sess.run(h_trans, feed_dict={x: batch})
+z = sess.run(h_trans, feed_dict={x: batch, y: batch2, keep_prob: 1.0})
 
-plt.imshow(y[0])
+plt.imshow(np.reshape(z[0], (40,40)))
 plt.show()
