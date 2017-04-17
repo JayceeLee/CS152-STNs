@@ -21,8 +21,8 @@ X_test = mnist_cluttered['X_test']
 y_test = dense_to_one_hot(mnist_cluttered['y_test'], n_classes=10)
 
 # Show an image to make sure it is working
-# plt.imshow(np.reshape(X_train[0], (40,40)))
-# plt.show()
+plt.imshow(np.reshape(X_train[15], (40,40)))
+plt.show()
 
 #### Create Graph representation of network ####
 
@@ -68,15 +68,65 @@ h_fc_loc2 = tf.nn.tanh(tf.matmul(h_fc_loc1_drop, W_fc_loc2) + b_fc_loc2)
 out_size = (40, 40)
 h_trans = transformer(x_tensor, h_fc_loc2, out_size)
 
+### ConvNet for Image Classification ###
+
+# We'll setup the first convolutional layer
+# Weight matrix is [height x width x input_channels x output_channels]
+filter_size = 3
+n_filters_1 = 16
+W_conv1 = weight_variable([filter_size, filter_size, 1, n_filters_1])
+
+# Bias is [output_channels]
+b_conv1 = bias_variable([n_filters_1])
+
+# Now we can build a graph which does the first layer of convolution:
+# we define our stride as batch x height x width x channels
+# instead of pooling, we use strides of 2 and more layers
+# with smaller filters.
+
+h_conv1 = tf.nn.relu(
+    tf.nn.conv2d(input=h_trans,
+                 filter=W_conv1,
+                 strides=[1, 2, 2, 1],
+                 padding='SAME') +
+    b_conv1)
+
+# And just like the first layer, add additional layers to create
+# a deep net
+n_filters_2 = 16
+W_conv2 = weight_variable([filter_size, filter_size, n_filters_1, n_filters_2])
+b_conv2 = bias_variable([n_filters_2])
+h_conv2 = tf.nn.relu(
+    tf.nn.conv2d(input=h_conv1,
+                 filter=W_conv2,
+                 strides=[1, 2, 2, 1],
+                 padding='SAME') +
+    b_conv2)
+
+# We'll now reshape so we can connect to a fully-connected layer:
+h_conv2_flat = tf.reshape(h_conv2, [-1, 10 * 10 * n_filters_2])
+
+# Create a fully-connected layer:
+n_fc = 1024
+W_fc1 = weight_variable([10 * 10 * n_filters_2, n_fc])
+b_fc1 = bias_variable([n_fc])
+h_fc1 = tf.nn.relu(tf.matmul(h_conv2_flat, W_fc1) + b_fc1)
+
+h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)
+
+# And finally our softmax layer:
+W_fc2 = weight_variable([n_fc, 10])
+b_fc2 = bias_variable([10])
+y_logits = tf.matmul(h_fc1_drop, W_fc2) + b_fc2
 
 
 
 #  Simulate batch
-batch = X_train[0]
+batch = X_train[15]
 batch = np.reshape(batch, (1,1600))
 # batch = np.append(batch, X_train[0], axis=0)
 # batch = np.append(batch, X_train[0], axis=0)
-batch2 = X_train[0]
+batch2 = X_train[15]
 batch2 = np.reshape(batch2, (1,1600))
 
 num_batch = 1

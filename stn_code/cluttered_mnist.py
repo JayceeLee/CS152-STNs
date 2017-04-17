@@ -17,7 +17,10 @@ from spatial_transformer import transformer
 import numpy as np
 from tf_utils import weight_variable, bias_variable, dense_to_one_hot
 import os
+import matplotlib.pyplot as plt
 
+# Suppress the warnings
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 # %% Load data
 # May need to modify this path depending on which file you are running this file from
@@ -96,7 +99,9 @@ b_conv1 = bias_variable([n_filters_1])
 # with smaller filters.
 
 h_conv1 = tf.nn.relu(
-    tf.nn.conv2d(input=h_trans,
+    tf.nn.conv2d(
+                #  input=x_tensor,
+                 input=h_trans,
                  filter=W_conv1,
                  strides=[1, 2, 2, 1],
                  padding='SAME') +
@@ -148,8 +153,8 @@ sess.run(tf.global_variables_initializer())
 
 
 # %% We'll now train in minibatches and report accuracy, loss:
-iter_per_epoch = 50
-n_epochs = 5
+iter_per_epoch = 200
+n_epochs = 100
 train_size = 10000
 
 indices = np.linspace(0, 10000 - 1, iter_per_epoch)
@@ -167,7 +172,7 @@ for epoch_i in range(n_epochs):
                                 y: batch_ys,
                                 keep_prob: 1.0
                             })
-            print('Iteration: ' + str(iter_i) + ' Loss: ' + str(loss))
+            # print('Iteration: ' + str(iter_i) + ' Loss: ' + str(loss))
 
         sess.run(optimizer, feed_dict={
             x: batch_xs, y: batch_ys, keep_prob: 0.8})
@@ -182,3 +187,26 @@ for epoch_i in range(n_epochs):
            x: batch_xs, keep_prob: 1.0})
     print(theta[0])
 print(theta[0])
+
+outdirOriginal = os.path.join('stn_code', 'data', 'originalImages')
+outdirModified = os.path.join('stn_code', 'data', 'modifiedImages2')
+# Original
+# make original images (do this once and comment out to save time)
+# for i in range(len(X_test)):
+#     plt.imshow(np.reshape(X_test[i], (40,40)))
+#     plt.savefig(os.path.join(outdirOriginal, str(i) + '.png'), format = "png")
+
+#  Simulate batch
+
+
+# Modified Image through STN
+for i in range(len(X_test)):
+    batch = X_test[i]
+    batch = np.reshape(batch, (1,1600))
+
+    batch2 = Y_test[i]
+    batch2 = np.reshape(batch2, (1,10))
+
+    z = sess.run(h_trans, feed_dict={x: batch, y: batch2, keep_prob: 1.0})
+    plt.imshow(np.reshape(z[0], (40,40)))
+    plt.savefig(os.path.join(outdirModified, str(i) + '.png'), format = "png")
