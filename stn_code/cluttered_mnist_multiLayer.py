@@ -18,6 +18,8 @@ import numpy as np
 from tf_utils import weight_variable, bias_variable, dense_to_one_hot
 import os
 import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
+import pandas as pd
 
 # Suppress the warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
@@ -188,20 +190,26 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, 'float'))
 
 # We now create a new session to actually perform the initialization the
 # variables:
+saver = tf.train.Saver()
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
 
 
 # We'll now train in minibatches and report accuracy, loss:
-iter_per_epoch = 200
-n_epochs = 15
-train_size = 10000
+iter_per_epoch = 20
+n_epochs = 2
+train_size = len(X_train)
+# iter_per_epoch = 50
+# n_epochs = 3000
+# train_size = len(X_train)
 
 indices = np.linspace(0, 10000 - 1, iter_per_epoch)
 indices = indices.astype('int')
 
-for epoch_i in range(n_epochs):
+for epoch_i in range(n_epochs): 
     for iter_i in range(iter_per_epoch - 1):
+        print("Currently on Epoch %d, Iteration %d" % (epoch_i, iter_i), end='\r')
+
         batch_xs = X_train[indices[iter_i]:indices[iter_i+1]]
         batch_ys = Y_train[indices[iter_i]:indices[iter_i+1]]
 
@@ -212,7 +220,7 @@ for epoch_i in range(n_epochs):
                                 y: batch_ys,
                                 keep_prob: 1.0
                             })
-            # print('Iteration: ' + str(iter_i) + ' Loss: ' + str(loss))
+            print('Epoch: ' + str(epoch_i) + ' Iteration: ' + str(iter_i) + ' Loss: ' + str(loss))
 
         sess.run(optimizer, feed_dict={
             x: batch_xs, y: batch_ys, keep_prob: 0.8})
@@ -228,9 +236,41 @@ for epoch_i in range(n_epochs):
     print(theta[0])
 print(theta[0])
 
-outdirOriginal = os.path.join('stn_code', 'data', 'originalImages')
-outdirModified = os.path.join('stn_code', 'data', 'multiSTNImages')
+modelPath = os.path.join('stn_code', 'data', 'stn_multilayer_model')
+if not os.path.exists(modelPath):
+    os.makedirs(modelPath)
+saver.save(sess, os.path.join(modelPath,"model.chk"))
 
+outdirOriginal = os.path.join('stn_code', 'data', 'originalImages')
+outdirModified = os.path.join('stn_code', 'data', 'multiSTNImages3')
+
+if not os.path.exists(outdirOriginal):
+    os.makedirs(outdirOriginal)
+
+if not os.path.exists(outdirModified):
+    os.makedirs(outdirModified)
+
+batch = X_test
+
+batch2 = Y_test
+
+y_actual = y_test.flatten()
+
+# One hot encoding of predictions
+y_pred_1h = sess.run(y_logits, feed_dict={x: batch, y: batch2, keep_prob: 1.0})
+index = np.where(y_pred_1h)
+y_predict = np.argmax(y_pred_1h, axis=1)
+
+y_actu = pd.Series(y_actual, name='Actual')
+y_pred = pd.Series(y_predict, name='Predicted')
+df_confusion = pd.crosstab(y_actu, y_pred, rownames=['Actual'], colnames=['Predicted'], margins=True)
+
+print(df_confusion)
+
+print("correctly predicted %d" % (y_actual == y_predict).sum())
+print("out of %d" % len(X_test))
+print("\nIndices of wrong images:", str(np.where(y_actual != y_predict)[0].tolist()))
+                        
 # Original
 # make original images (do this once and comment out to save time)
 # for i in range(len(X_test)):
@@ -238,8 +278,7 @@ outdirModified = os.path.join('stn_code', 'data', 'multiSTNImages')
 #     plt.savefig(os.path.join(outdirOriginal, str(i) + '.png'), format = "png")
 
 #  Simulate batch
-
-
+print(" \nWriting Modified images to: %s" % outdirModified)
 # Modified Image through STN
 for i in range(len(X_test)):
     batch = X_test[i]
