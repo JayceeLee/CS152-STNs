@@ -196,12 +196,12 @@ sess.run(tf.global_variables_initializer())
 
 
 # We'll now train in minibatches and report accuracy, loss:
-iter_per_epoch = 20
-n_epochs = 2
-train_size = len(X_train)
-# iter_per_epoch = 50
-# n_epochs = 3000
+# iter_per_epoch = 20
+# n_epochs = 2
 # train_size = len(X_train)
+iter_per_epoch = 50
+n_epochs = 3000
+train_size = len(X_train)
 
 indices = np.linspace(0, 10000 - 1, iter_per_epoch)
 indices = indices.astype('int')
@@ -242,7 +242,7 @@ if not os.path.exists(modelPath):
 saver.save(sess, os.path.join(modelPath,"model.chk"))
 
 outdirOriginal = os.path.join('stn_code', 'data', 'originalImages')
-outdirModified = os.path.join('stn_code', 'data', 'multiSTNImages3')
+outdirModified = os.path.join('stn_code', 'data', 'multiSTNImages')
 
 if not os.path.exists(outdirOriginal):
     os.makedirs(outdirOriginal)
