@@ -1,0 +1,2 @@
+@echo on
+(python stn_code\cluttered_mnist_cnn_only.py > output\cnn_run1.txt) & (timeout 10) & (python stn_code\cluttered_mnist_stn.py > output\stn_run1.txt) & (timeout 10) & (python stn_code\cluttered_mnist_multistn.py > output\multistn_run1.txt) 

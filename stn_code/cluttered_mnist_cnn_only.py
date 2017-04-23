@@ -18,12 +18,13 @@ import numpy as np
 from tf_utils import weight_variable, bias_variable, dense_to_one_hot
 import os
 import matplotlib.pyplot as plt
+import pandas as pd
 
 # Training Parameters
 iter_per_epoch = 50
-n_epochs = 2
+n_epochs = 500
 
-mainOutdir = os.path.join('output', 'cnn_run1_test')
+mainOutdir = os.path.join('output', 'cnn_run1')
 modelPath = os.path.join(mainOutdir, 'cnn_model')
 
 if not os.path.exists(modelPath):
@@ -121,6 +122,8 @@ W_fc1 = weight_variable([10 * 10 * n_filters_2, n_fc])
 b_fc1 = bias_variable([n_fc])
 h_fc1 = tf.nn.relu(tf.matmul(h_conv2_flat, W_fc1) + b_fc1)
 
+keep_prob = tf.placeholder(tf.float32)
+
 h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)
 
 # And finally our softmax layer:
@@ -133,7 +136,6 @@ cross_entropy = tf.reduce_mean(
     tf.nn.softmax_cross_entropy_with_logits(logits=y_logits, labels=y))
 opt = tf.train.AdamOptimizer()
 optimizer = opt.minimize(cross_entropy)
-grads = opt.compute_gradients(cross_entropy, [b_fc_loc2])
 
 # Monitor accuracy
 correct_prediction = tf.equal(tf.argmax(y_logits, 1), tf.argmax(y, 1))
@@ -175,11 +177,6 @@ for epoch_i in range(n_epochs):
                                                          y: Y_valid,
                                                          keep_prob: 1.0
                                                      })))
-    theta = sess.run(h_fc_loc2, feed_dict={
-           x: batch_xs, keep_prob: 1.0})
-print("\n\n\n Final Theta Values for Layer 1:")
-print(theta[0])
-
 batch = X_test
 
 batch2 = Y_test

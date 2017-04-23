@@ -18,12 +18,13 @@ import numpy as np
 from tf_utils import weight_variable, bias_variable, dense_to_one_hot
 import os
 import matplotlib.pyplot as plt
+import pandas as pd
 
 # Training Parameters
 iter_per_epoch = 50
-n_epochs = 1000
+n_epochs = 500
 
-mainOutdir = os.path.join('output', 'stn_cnn_run1_test')
+mainOutdir = os.path.join('output', 'stn_cnn_run1')
 modelPath = os.path.join(mainOutdir, 'stn_cnn_model')
 
 if not os.path.exists(modelPath):
@@ -200,7 +201,7 @@ for epoch_i in range(n_epochs):
                                 y: batch_ys,
                                 keep_prob: 1.0
                             })
-            # print('Iteration: ' + str(iter_i) + ' Loss: ' + str(loss))
+            print('Iteration: ' + str(iter_i) + ' Loss: ' + str(loss))
 
         sess.run(optimizer, feed_dict={
             x: batch_xs, y: batch_ys, keep_prob: 0.8})
@@ -215,6 +216,7 @@ for epoch_i in range(n_epochs):
            x: batch_xs, keep_prob: 1.0})
 print("\n\n\n Final Theta Values for Layer 1:")
 print(theta[0])
+print("\n")
 
 
 batch = X_test

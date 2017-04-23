@@ -18,14 +18,13 @@ import numpy as np
 from tf_utils import weight_variable, bias_variable, dense_to_one_hot
 import os
 import matplotlib.pyplot as plt
-from sklearn.metrics import confusion_matrix
 import pandas as pd
 
 # Training Parameters
 iter_per_epoch = 50
-n_epochs = 2
+n_epochs = 500
 
-mainOutdir = os.path.join('output', 'multistn_run_2')
+mainOutdir = os.path.join('output', 'multistn_run1')
 modelPath = os.path.join(mainOutdir, 'multistn_model')
 
 if not os.path.exists(modelPath):
@@ -220,7 +219,6 @@ sess.run(tf.global_variables_initializer())
 # n_epochs = 2
 train_size = len(X_train)
 
-
 indices = np.linspace(0, train_size - 1, iter_per_epoch)
 indices = indices.astype('int')
 
@@ -254,7 +252,7 @@ for epoch_i in range(n_epochs):
     print(theta[0])
 print("\n\n\n Final Theta Values for Layer 1:")
 print(theta[0])
-
+print("\n")
 
 batch = X_test
 
