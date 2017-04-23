@@ -18,6 +18,28 @@ import numpy as np
 from tf_utils import weight_variable, bias_variable, dense_to_one_hot
 import os
 import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
+import pandas as pd
+
+# Training Parameters
+iter_per_epoch = 50
+n_epochs = 2
+
+mainOutdir = os.path.join('output', 'multistn_run_2')
+modelPath = os.path.join(mainOutdir, 'multistn_model')
+
+if not os.path.exists(modelPath):
+    os.makedirs(modelPath)
+
+outdirOriginal = os.path.join(mainOutdir, 'originalImages')
+outdirModified = os.path.join(mainOutdir, 'modifiedImages')
+
+if not os.path.exists(outdirOriginal):
+   os.makedirs(outdirOriginal)
+
+if not os.path.exists(outdirModified):
+    os.makedirs(outdirModified)
+
 
 # Suppress the warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
@@ -86,8 +108,6 @@ h_fc_loc2 = tf.nn.tanh(tf.matmul(h_fc_loc1_drop, W_fc_loc2) + b_fc_loc2)
 out_size = (40, 40)
 h_trans = transformer(x_tensor, h_fc_loc2, out_size)
 
-
-
 # We'll setup the first convolutional layer
 # Weight matrix is [height x width x input_channels x output_channels]
 filter_size = 3
@@ -111,13 +131,51 @@ h_conv1 = tf.nn.relu(
                  padding='SAME') +
     b_conv1)
 
+# NEW CODE
+
+h_conv1_reshape = tf.reshape(h_conv1, [-1, 80, 80, 1])
+
+# Placeholders for 20x20x16 resolution
+# x2 = tf.placeholder(tf.float32, [None, 6400])
+
+# We'll setup the two-layer localisation network to figure out the
+# parameters for an affine transformation of the input
+# Create variables for fully connected layer
+numPixels = 20*20*16
+numNodesL1 = 50
+numNodesL2 = 6
+W_fc_loc1_stn2 = weight_variable([numPixels, numNodesL1])
+b_fc_loc1_stn2 = bias_variable([numNodesL1])
+W_fc_loc2_stn2 = weight_variable([numNodesL1, numNodesL2])
+
+# Use identity transformation as starting point
+initial = np.array([[1., 0, 0], [0, 1., 0]])
+initial = initial.astype('float32')
+initial = initial.flatten()
+b_fc_loc2_stn2 = tf.Variable(initial_value=initial, name='b_fc_loc2_stn2')
+
+# Define the connection of first layer
+h_fc_loc1_stn2 = tf.nn.tanh(tf.matmul(tf.reshape(h_conv1_reshape, [-1, 6400]), W_fc_loc1_stn2) + b_fc_loc1_stn2)
+h_fc_loc1_drop_stn2 = tf.nn.dropout(h_fc_loc1_stn2, keep_prob)
+# Define the connection of second layer
+h_fc_loc2_stn2 = tf.nn.tanh(tf.matmul(h_fc_loc1_drop_stn2, W_fc_loc2_stn2) + b_fc_loc2_stn2)
+
+# We'll create a spatial transformer module to identify discriminative
+# patches
+out_size_stn2 = (80, 80)
+h_trans2 = transformer(h_conv1_reshape, h_fc_loc2_stn2, out_size_stn2)
+h_trans2_reshape = tf.reshape(h_trans2, [-1,20,20,16]) #LOLOLOLOL
+
+
+# END OF NEW CODE
+
 # And just like the first layer, add additional layers to create
 # a deep net
 n_filters_2 = 16
 W_conv2 = weight_variable([filter_size, filter_size, n_filters_1, n_filters_2])
 b_conv2 = bias_variable([n_filters_2])
 h_conv2 = tf.nn.relu(
-    tf.nn.conv2d(input=h_conv1,
+    tf.nn.conv2d(input=h_trans2_reshape, #input=h_conv1,
                  filter=W_conv2,
                  strides=[1, 2, 2, 1],
                  padding='SAME') +
@@ -150,28 +208,26 @@ grads = opt.compute_gradients(cross_entropy, [b_fc_loc2])
 correct_prediction = tf.equal(tf.argmax(y_logits, 1), tf.argmax(y, 1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, 'float'))
 
-
-
-
-
-
-
 # We now create a new session to actually perform the initialization the
 # variables:
+saver = tf.train.Saver()
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
 
 
 # We'll now train in minibatches and report accuracy, loss:
-iter_per_epoch = 200
-n_epochs = 15
-train_size = 10000
+# iter_per_epoch = 20
+# n_epochs = 2
+train_size = len(X_train)
 
-indices = np.linspace(0, 10000 - 1, iter_per_epoch)
+
+indices = np.linspace(0, train_size - 1, iter_per_epoch)
 indices = indices.astype('int')
 
-for epoch_i in range(n_epochs):
+for epoch_i in range(n_epochs): 
     for iter_i in range(iter_per_epoch - 1):
+        print("Currently on Epoch %d, Iteration %d" % (epoch_i, iter_i), end='\r')
+
         batch_xs = X_train[indices[iter_i]:indices[iter_i+1]]
         batch_ys = Y_train[indices[iter_i]:indices[iter_i+1]]
 
@@ -182,7 +238,7 @@ for epoch_i in range(n_epochs):
                                 y: batch_ys,
                                 keep_prob: 1.0
                             })
-            # print('Iteration: ' + str(iter_i) + ' Loss: ' + str(loss))
+            print('Epoch: ' + str(epoch_i) + ' Iteration: ' + str(iter_i) + ' Loss: ' + str(loss))
 
         sess.run(optimizer, feed_dict={
             x: batch_xs, y: batch_ys, keep_prob: 0.8})
@@ -196,10 +252,33 @@ for epoch_i in range(n_epochs):
     theta = sess.run(h_fc_loc2, feed_dict={
            x: batch_xs, keep_prob: 1.0})
     print(theta[0])
+print("\n\n\n Final Theta Values for Layer 1:")
 print(theta[0])
 
-outdirOriginal = os.path.join('stn_code', 'data', 'originalImages')
-outdirModified = os.path.join('stn_code', 'data', 'modifiedImages2')
+
+batch = X_test
+
+batch2 = Y_test
+
+y_actual = y_test.flatten()
+
+# Predictions in the form of [[score_class1 score_class2 ... score_classn] for each sample]
+y_pred_1h = sess.run(y_logits, feed_dict={x: batch, y: batch2, keep_prob: 1.0})
+index = np.where(y_pred_1h)
+y_predict = np.argmax(y_pred_1h, axis=1)
+
+y_actu = pd.Series(y_actual, name='Actual')
+y_pred = pd.Series(y_predict, name='Predicted')
+df_confusion = pd.crosstab(y_actu, y_pred, rownames=['Actual'], colnames=['Predicted'], margins=True)
+
+print(df_confusion)
+
+print("\ncorrectly predicted %d" % (y_actual == y_predict).sum())
+print("out of %d" % len(X_test))
+print("\nIndices of wrong images:", str(np.where(y_actual != y_predict)[0].tolist()))
+
+# Save Model
+saver.save(sess, os.path.join(modelPath,"model.chk"))
 
 # Original
 # make original images (do this once and comment out to save time)
@@ -208,8 +287,7 @@ outdirModified = os.path.join('stn_code', 'data', 'modifiedImages2')
 #     plt.savefig(os.path.join(outdirOriginal, str(i) + '.png'), format = "png")
 
 #  Simulate batch
-
-
+print(" \nWriting Modified images to: %s" % outdirModified)
 # Modified Image through STN
 for i in range(len(X_test)):
     batch = X_test[i]
