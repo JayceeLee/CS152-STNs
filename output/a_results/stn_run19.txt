@@ -1,0 +1,3029 @@
+stn+cnn run
+iters per epoch: 50
+number of epochs: 500
+
+Iteration: 0 Loss: 2.30235
+Iteration: 10 Loss: 2.29694
+Iteration: 20 Loss: 2.29641
+Iteration: 30 Loss: 2.30186
+Iteration: 40 Loss: 2.30197
+Accuracy (0): 0.119
+Iteration: 0 Loss: 2.30078
+Iteration: 10 Loss: 2.29566
+Iteration: 20 Loss: 2.29176
+Iteration: 30 Loss: 2.29211
+Iteration: 40 Loss: 2.25431
+Accuracy (1): 0.191
+Iteration: 0 Loss: 2.19885
+Iteration: 10 Loss: 2.07256
+Iteration: 20 Loss: 2.05328
+Iteration: 30 Loss: 2.04478
+Iteration: 40 Loss: 1.97205
+Accuracy (2): 0.375
+Iteration: 0 Loss: 1.84496
+Iteration: 10 Loss: 1.62019
+Iteration: 20 Loss: 1.49405
+Iteration: 30 Loss: 1.49892
+Iteration: 40 Loss: 1.37781
+Accuracy (3): 0.58
+Iteration: 0 Loss: 1.38834
+Iteration: 10 Loss: 1.16516
+Iteration: 20 Loss: 1.04157
+Iteration: 30 Loss: 1.04621
+Iteration: 40 Loss: 0.972679
+Accuracy (4): 0.686
+Iteration: 0 Loss: 1.13215
+Iteration: 10 Loss: 0.950952
+Iteration: 20 Loss: 0.8563
+Iteration: 30 Loss: 0.777854
+Iteration: 40 Loss: 0.746095
+Accuracy (5): 0.737
+Iteration: 0 Loss: 0.994044
+Iteration: 10 Loss: 0.769308
+Iteration: 20 Loss: 0.695502
+Iteration: 30 Loss: 0.688715
+Iteration: 40 Loss: 0.664045
+Accuracy (6): 0.782
+Iteration: 0 Loss: 0.834622
+Iteration: 10 Loss: 0.677845
+Iteration: 20 Loss: 0.614948
+Iteration: 30 Loss: 0.553399
+Iteration: 40 Loss: 0.57088
+Accuracy (7): 0.785
+Iteration: 0 Loss: 0.792068
+Iteration: 10 Loss: 0.623892
+Iteration: 20 Loss: 0.586818
+Iteration: 30 Loss: 0.496513
+Iteration: 40 Loss: 0.505675
+Accuracy (8): 0.809
+Iteration: 0 Loss: 0.755685
+Iteration: 10 Loss: 0.573691
+Iteration: 20 Loss: 0.53066
+Iteration: 30 Loss: 0.448926
+Iteration: 40 Loss: 0.460178
+Accuracy (9): 0.822
+Iteration: 0 Loss: 0.710438
+Iteration: 10 Loss: 0.512452
+Iteration: 20 Loss: 0.477281
+Iteration: 30 Loss: 0.432019
+Iteration: 40 Loss: 0.396246
+Accuracy (10): 0.819
+Iteration: 0 Loss: 0.65193
+Iteration: 10 Loss: 0.480439
+Iteration: 20 Loss: 0.429425
+Iteration: 30 Loss: 0.404994
+Iteration: 40 Loss: 0.348628
+Accuracy (11): 0.837
+Iteration: 0 Loss: 0.597076
+Iteration: 10 Loss: 0.426628
+Iteration: 20 Loss: 0.430723
+Iteration: 30 Loss: 0.371917
+Iteration: 40 Loss: 0.330234
+Accuracy (12): 0.827
+Iteration: 0 Loss: 0.57044
+Iteration: 10 Loss: 0.399913
+Iteration: 20 Loss: 0.36076
+Iteration: 30 Loss: 0.348434
+Iteration: 40 Loss: 0.305369
+Accuracy (13): 0.85
+Iteration: 0 Loss: 0.50657
+Iteration: 10 Loss: 0.383342
+Iteration: 20 Loss: 0.360942
+Iteration: 30 Loss: 0.311485
+Iteration: 40 Loss: 0.251739
+Accuracy (14): 0.854
+Iteration: 0 Loss: 0.473366
+Iteration: 10 Loss: 0.344205
+Iteration: 20 Loss: 0.303374
+Iteration: 30 Loss: 0.301241
+Iteration: 40 Loss: 0.239907
+Accuracy (15): 0.87
+Iteration: 0 Loss: 0.436378
+Iteration: 10 Loss: 0.32869
+Iteration: 20 Loss: 0.298391
+Iteration: 30 Loss: 0.278933
+Iteration: 40 Loss: 0.207935
+Accuracy (16): 0.873
+Iteration: 0 Loss: 0.419588
+Iteration: 10 Loss: 0.293155
+Iteration: 20 Loss: 0.267221
+Iteration: 30 Loss: 0.242247
+Iteration: 40 Loss: 0.176286
+Accuracy (17): 0.88
+Iteration: 0 Loss: 0.387881
+Iteration: 10 Loss: 0.274536
+Iteration: 20 Loss: 0.229754
+Iteration: 30 Loss: 0.228812
+Iteration: 40 Loss: 0.169908
+Accuracy (18): 0.876
+Iteration: 0 Loss: 0.376429
+Iteration: 10 Loss: 0.240539
+Iteration: 20 Loss: 0.21958
+Iteration: 30 Loss: 0.210056
+Iteration: 40 Loss: 0.153724
+Accuracy (19): 0.891
+Iteration: 0 Loss: 0.313206
+Iteration: 10 Loss: 0.20133
+Iteration: 20 Loss: 0.210824
+Iteration: 30 Loss: 0.194706
+Iteration: 40 Loss: 0.151821
+Accuracy (20): 0.9
+Iteration: 0 Loss: 0.294104
+Iteration: 10 Loss: 0.210033
+Iteration: 20 Loss: 0.200675
+Iteration: 30 Loss: 0.17767
+Iteration: 40 Loss: 0.12866
+Accuracy (21): 0.898
+Iteration: 0 Loss: 0.267109
+Iteration: 10 Loss: 0.192937
+Iteration: 20 Loss: 0.208814
+Iteration: 30 Loss: 0.173939
+Iteration: 40 Loss: 0.122847
+Accuracy (22): 0.903
+Iteration: 0 Loss: 0.267249
+Iteration: 10 Loss: 0.195655
+Iteration: 20 Loss: 0.170188
+Iteration: 30 Loss: 0.136307
+Iteration: 40 Loss: 0.11346
+Accuracy (23): 0.911
+Iteration: 0 Loss: 0.266372
+Iteration: 10 Loss: 0.168265
+Iteration: 20 Loss: 0.161375
+Iteration: 30 Loss: 0.116708
+Iteration: 40 Loss: 0.109595
+Accuracy (24): 0.905
+Iteration: 0 Loss: 0.2379
+Iteration: 10 Loss: 0.179511
+Iteration: 20 Loss: 0.15375
+Iteration: 30 Loss: 0.120497
+Iteration: 40 Loss: 0.0996631
+Accuracy (25): 0.912
+Iteration: 0 Loss: 0.245458
+Iteration: 10 Loss: 0.165823
+Iteration: 20 Loss: 0.151013
+Iteration: 30 Loss: 0.102442
+Iteration: 40 Loss: 0.0939973
+Accuracy (26): 0.908
+Iteration: 0 Loss: 0.22134
+Iteration: 10 Loss: 0.15853
+Iteration: 20 Loss: 0.150533
+Iteration: 30 Loss: 0.110989
+Iteration: 40 Loss: 0.0774358
+Accuracy (27): 0.911
+Iteration: 0 Loss: 0.197733
+Iteration: 10 Loss: 0.151876
+Iteration: 20 Loss: 0.155546
+Iteration: 30 Loss: 0.0795183
+Iteration: 40 Loss: 0.0894701
+Accuracy (28): 0.919
+Iteration: 0 Loss: 0.188358
+Iteration: 10 Loss: 0.125143
+Iteration: 20 Loss: 0.112639
+Iteration: 30 Loss: 0.0778985
+Iteration: 40 Loss: 0.0683789
+Accuracy (29): 0.908
+Iteration: 0 Loss: 0.20129
+Iteration: 10 Loss: 0.148547
+Iteration: 20 Loss: 0.0937017
+Iteration: 30 Loss: 0.0936055
+Iteration: 40 Loss: 0.0673989
+Accuracy (30): 0.924
+Iteration: 0 Loss: 0.194968
+Iteration: 10 Loss: 0.118533
+Iteration: 20 Loss: 0.0965485
+Iteration: 30 Loss: 0.0675867
+Iteration: 40 Loss: 0.080074
+Accuracy (31): 0.92
+Iteration: 0 Loss: 0.154531
+Iteration: 10 Loss: 0.146094
+Iteration: 20 Loss: 0.116072
+Iteration: 30 Loss: 0.0710643
+Iteration: 40 Loss: 0.0601929
+Accuracy (32): 0.919
+Iteration: 0 Loss: 0.178845
+Iteration: 10 Loss: 0.153914
+Iteration: 20 Loss: 0.142817
+Iteration: 30 Loss: 0.0757744
+Iteration: 40 Loss: 0.064772
+Accuracy (33): 0.929
+Iteration: 0 Loss: 0.139614
+Iteration: 10 Loss: 0.135356
+Iteration: 20 Loss: 0.0883709
+Iteration: 30 Loss: 0.0842263
+Iteration: 40 Loss: 0.0651849
+Accuracy (34): 0.927
+Iteration: 0 Loss: 0.149163
+Iteration: 10 Loss: 0.140498
+Iteration: 20 Loss: 0.0839386
+Iteration: 30 Loss: 0.0624876
+Iteration: 40 Loss: 0.0634917
+Accuracy (35): 0.926
+Iteration: 0 Loss: 0.12771
+Iteration: 10 Loss: 0.124856
+Iteration: 20 Loss: 0.0686334
+Iteration: 30 Loss: 0.061644
+Iteration: 40 Loss: 0.0589488
+Accuracy (36): 0.93
+Iteration: 0 Loss: 0.130949
+Iteration: 10 Loss: 0.130114
+Iteration: 20 Loss: 0.0750033
+Iteration: 30 Loss: 0.0609268
+Iteration: 40 Loss: 0.0680072
+Accuracy (37): 0.932
+Iteration: 0 Loss: 0.127691
+Iteration: 10 Loss: 0.10189
+Iteration: 20 Loss: 0.0648009
+Iteration: 30 Loss: 0.0748766
+Iteration: 40 Loss: 0.0511027
+Accuracy (38): 0.93
+Iteration: 0 Loss: 0.115664
+Iteration: 10 Loss: 0.105904
+Iteration: 20 Loss: 0.0707422
+Iteration: 30 Loss: 0.0663996
+Iteration: 40 Loss: 0.0561076
+Accuracy (39): 0.934
+Iteration: 0 Loss: 0.114185
+Iteration: 10 Loss: 0.109005
+Iteration: 20 Loss: 0.0499359
+Iteration: 30 Loss: 0.0538113
+Iteration: 40 Loss: 0.0473846
+Accuracy (40): 0.93
+Iteration: 0 Loss: 0.104281
+Iteration: 10 Loss: 0.119606
+Iteration: 20 Loss: 0.070508
+Iteration: 30 Loss: 0.0467594
+Iteration: 40 Loss: 0.0510576
+Accuracy (41): 0.936
+Iteration: 0 Loss: 0.0854028
+Iteration: 10 Loss: 0.0950276
+Iteration: 20 Loss: 0.0707777
+Iteration: 30 Loss: 0.0392672
+Iteration: 40 Loss: 0.0523999
+Accuracy (42): 0.93
+Iteration: 0 Loss: 0.0911733
+Iteration: 10 Loss: 0.0957736
+Iteration: 20 Loss: 0.0627979
+Iteration: 30 Loss: 0.0425812
+Iteration: 40 Loss: 0.0473037
+Accuracy (43): 0.931
+Iteration: 0 Loss: 0.138636
+Iteration: 10 Loss: 0.109366
+Iteration: 20 Loss: 0.0519213
+Iteration: 30 Loss: 0.0415352
+Iteration: 40 Loss: 0.0564338
+Accuracy (44): 0.931
+Iteration: 0 Loss: 0.0719389
+Iteration: 10 Loss: 0.0983105
+Iteration: 20 Loss: 0.0721559
+Iteration: 30 Loss: 0.0508888
+Iteration: 40 Loss: 0.0652224
+Accuracy (45): 0.935
+Iteration: 0 Loss: 0.0757679
+Iteration: 10 Loss: 0.0805579
+Iteration: 20 Loss: 0.0570098
+Iteration: 30 Loss: 0.0473849
+Iteration: 40 Loss: 0.03201
+Accuracy (46): 0.932
+Iteration: 0 Loss: 0.0844867
+Iteration: 10 Loss: 0.0858904
+Iteration: 20 Loss: 0.0563203
+Iteration: 30 Loss: 0.0506765
+Iteration: 40 Loss: 0.0441719
+Accuracy (47): 0.937
+Iteration: 0 Loss: 0.0813022
+Iteration: 10 Loss: 0.0991656
+Iteration: 20 Loss: 0.0676463
+Iteration: 30 Loss: 0.0529345
+Iteration: 40 Loss: 0.0415557
+Accuracy (48): 0.937
+Iteration: 0 Loss: 0.0627361
+Iteration: 10 Loss: 0.0860379
+Iteration: 20 Loss: 0.0413531
+Iteration: 30 Loss: 0.0304239
+Iteration: 40 Loss: 0.0439007
+Accuracy (49): 0.941
+Iteration: 0 Loss: 0.0733038
+Iteration: 10 Loss: 0.0960966
+Iteration: 20 Loss: 0.046876
+Iteration: 30 Loss: 0.0328142
+Iteration: 40 Loss: 0.032985
+Accuracy (50): 0.942
+Iteration: 0 Loss: 0.0558048
+Iteration: 10 Loss: 0.110144
+Iteration: 20 Loss: 0.0568191
+Iteration: 30 Loss: 0.0335366
+Iteration: 40 Loss: 0.0360808
+Accuracy (51): 0.936
+Iteration: 0 Loss: 0.0594089
+Iteration: 10 Loss: 0.0691433
+Iteration: 20 Loss: 0.0431312
+Iteration: 30 Loss: 0.0378183
+Iteration: 40 Loss: 0.0299207
+Accuracy (52): 0.941
+Iteration: 0 Loss: 0.0492359
+Iteration: 10 Loss: 0.0858023
+Iteration: 20 Loss: 0.0533052
+Iteration: 30 Loss: 0.0365936
+Iteration: 40 Loss: 0.0311776
+Accuracy (53): 0.94
+Iteration: 0 Loss: 0.0770277
+Iteration: 10 Loss: 0.0716445
+Iteration: 20 Loss: 0.0506361
+Iteration: 30 Loss: 0.0439906
+Iteration: 40 Loss: 0.0324901
+Accuracy (54): 0.937
+Iteration: 0 Loss: 0.0547896
+Iteration: 10 Loss: 0.0814036
+Iteration: 20 Loss: 0.0381004
+Iteration: 30 Loss: 0.0300477
+Iteration: 40 Loss: 0.021849
+Accuracy (55): 0.94
+Iteration: 0 Loss: 0.0468346
+Iteration: 10 Loss: 0.0954049
+Iteration: 20 Loss: 0.0543796
+Iteration: 30 Loss: 0.0479701
+Iteration: 40 Loss: 0.0360447
+Accuracy (56): 0.935
+Iteration: 0 Loss: 0.0595498
+Iteration: 10 Loss: 0.0643368
+Iteration: 20 Loss: 0.0354617
+Iteration: 30 Loss: 0.0314531
+Iteration: 40 Loss: 0.0304419
+Accuracy (57): 0.94
+Iteration: 0 Loss: 0.0690892
+Iteration: 10 Loss: 0.0969392
+Iteration: 20 Loss: 0.0456965
+Iteration: 30 Loss: 0.042462
+Iteration: 40 Loss: 0.0454772
+Accuracy (58): 0.938
+Iteration: 0 Loss: 0.0650891
+Iteration: 10 Loss: 0.0831577
+Iteration: 20 Loss: 0.0407341
+Iteration: 30 Loss: 0.0342441
+Iteration: 40 Loss: 0.0301788
+Accuracy (59): 0.937
+Iteration: 0 Loss: 0.0685116
+Iteration: 10 Loss: 0.0809265
+Iteration: 20 Loss: 0.0494344
+Iteration: 30 Loss: 0.0260559
+Iteration: 40 Loss: 0.0388926
+Accuracy (60): 0.943
+Iteration: 0 Loss: 0.0464847
+Iteration: 10 Loss: 0.077869
+Iteration: 20 Loss: 0.0398262
+Iteration: 30 Loss: 0.0381767
+Iteration: 40 Loss: 0.0300409
+Accuracy (61): 0.941
+Iteration: 0 Loss: 0.0498038
+Iteration: 10 Loss: 0.063402
+Iteration: 20 Loss: 0.042168
+Iteration: 30 Loss: 0.0434932
+Iteration: 40 Loss: 0.0472805
+Accuracy (62): 0.937
+Iteration: 0 Loss: 0.0533989
+Iteration: 10 Loss: 0.0635684
+Iteration: 20 Loss: 0.0404662
+Iteration: 30 Loss: 0.0348232
+Iteration: 40 Loss: 0.0331541
+Accuracy (63): 0.937
+Iteration: 0 Loss: 0.0440288
+Iteration: 10 Loss: 0.0586534
+Iteration: 20 Loss: 0.0436148
+Iteration: 30 Loss: 0.0403792
+Iteration: 40 Loss: 0.0475213
+Accuracy (64): 0.939
+Iteration: 0 Loss: 0.0813766
+Iteration: 10 Loss: 0.0493291
+Iteration: 20 Loss: 0.0304278
+Iteration: 30 Loss: 0.0301718
+Iteration: 40 Loss: 0.0326881
+Accuracy (65): 0.939
+Iteration: 0 Loss: 0.0418286
+Iteration: 10 Loss: 0.0703561
+Iteration: 20 Loss: 0.0264914
+Iteration: 30 Loss: 0.0424495
+Iteration: 40 Loss: 0.0316072
+Accuracy (66): 0.946
+Iteration: 0 Loss: 0.0444344
+Iteration: 10 Loss: 0.0628177
+Iteration: 20 Loss: 0.0376428
+Iteration: 30 Loss: 0.031975
+Iteration: 40 Loss: 0.032707
+Accuracy (67): 0.944
+Iteration: 0 Loss: 0.0282691
+Iteration: 10 Loss: 0.06265
+Iteration: 20 Loss: 0.0365652
+Iteration: 30 Loss: 0.0258843
+Iteration: 40 Loss: 0.0282965
+Accuracy (68): 0.935
+Iteration: 0 Loss: 0.036908
+Iteration: 10 Loss: 0.0614433
+Iteration: 20 Loss: 0.0288285
+Iteration: 30 Loss: 0.0222208
+Iteration: 40 Loss: 0.0306713
+Accuracy (69): 0.935
+Iteration: 0 Loss: 0.0527689
+Iteration: 10 Loss: 0.0480945
+Iteration: 20 Loss: 0.0369259
+Iteration: 30 Loss: 0.0346892
+Iteration: 40 Loss: 0.0244333
+Accuracy (70): 0.939
+Iteration: 0 Loss: 0.0312952
+Iteration: 10 Loss: 0.0433548
+Iteration: 20 Loss: 0.0217586
+Iteration: 30 Loss: 0.0170281
+Iteration: 40 Loss: 0.0245409
+Accuracy (71): 0.943
+Iteration: 0 Loss: 0.0589422
+Iteration: 10 Loss: 0.0561026
+Iteration: 20 Loss: 0.0343057
+Iteration: 30 Loss: 0.0206351
+Iteration: 40 Loss: 0.0249181
+Accuracy (72): 0.946
+Iteration: 0 Loss: 0.0249396
+Iteration: 10 Loss: 0.0411459
+Iteration: 20 Loss: 0.0290023
+Iteration: 30 Loss: 0.0230959
+Iteration: 40 Loss: 0.0207535
+Accuracy (73): 0.947
+Iteration: 0 Loss: 0.0318747
+Iteration: 10 Loss: 0.0463263
+Iteration: 20 Loss: 0.0274965
+Iteration: 30 Loss: 0.0252386
+Iteration: 40 Loss: 0.0254749
+Accuracy (74): 0.939
+Iteration: 0 Loss: 0.0251512
+Iteration: 10 Loss: 0.0519426
+Iteration: 20 Loss: 0.0298571
+Iteration: 30 Loss: 0.0429824
+Iteration: 40 Loss: 0.0231241
+Accuracy (75): 0.947
+Iteration: 0 Loss: 0.0284907
+Iteration: 10 Loss: 0.0518919
+Iteration: 20 Loss: 0.0216092
+Iteration: 30 Loss: 0.029952
+Iteration: 40 Loss: 0.027919
+Accuracy (76): 0.947
+Iteration: 0 Loss: 0.0402489
+Iteration: 10 Loss: 0.0442035
+Iteration: 20 Loss: 0.0327283
+Iteration: 30 Loss: 0.0342573
+Iteration: 40 Loss: 0.022676
+Accuracy (77): 0.946
+Iteration: 0 Loss: 0.0236643
+Iteration: 10 Loss: 0.045106
+Iteration: 20 Loss: 0.0309876
+Iteration: 30 Loss: 0.0246682
+Iteration: 40 Loss: 0.0173593
+Accuracy (78): 0.942
+Iteration: 0 Loss: 0.0263451
+Iteration: 10 Loss: 0.0395479
+Iteration: 20 Loss: 0.0302116
+Iteration: 30 Loss: 0.0215666
+Iteration: 40 Loss: 0.0212363
+Accuracy (79): 0.946
+Iteration: 0 Loss: 0.0306295
+Iteration: 10 Loss: 0.0433469
+Iteration: 20 Loss: 0.0285494
+Iteration: 30 Loss: 0.0170268
+Iteration: 40 Loss: 0.0245962
+Accuracy (80): 0.944
+Iteration: 0 Loss: 0.0346858
+Iteration: 10 Loss: 0.0642255
+Iteration: 20 Loss: 0.0258758
+Iteration: 30 Loss: 0.0226326
+Iteration: 40 Loss: 0.0265301
+Accuracy (81): 0.949
+Iteration: 0 Loss: 0.0257851
+Iteration: 10 Loss: 0.02922
+Iteration: 20 Loss: 0.0358511
+Iteration: 30 Loss: 0.0276066
+Iteration: 40 Loss: 0.0174777
+Accuracy (82): 0.946
+Iteration: 0 Loss: 0.0279232
+Iteration: 10 Loss: 0.0499103
+Iteration: 20 Loss: 0.019579
+Iteration: 30 Loss: 0.0236184
+Iteration: 40 Loss: 0.0183381
+Accuracy (83): 0.944
+Iteration: 0 Loss: 0.0313754
+Iteration: 10 Loss: 0.0347218
+Iteration: 20 Loss: 0.0276795
+Iteration: 30 Loss: 0.0359822
+Iteration: 40 Loss: 0.0327856
+Accuracy (84): 0.937
+Iteration: 0 Loss: 0.0159111
+Iteration: 10 Loss: 0.0300698
+Iteration: 20 Loss: 0.0150342
+Iteration: 30 Loss: 0.0152803
+Iteration: 40 Loss: 0.0151685
+Accuracy (85): 0.945
+Iteration: 0 Loss: 0.027289
+Iteration: 10 Loss: 0.032796
+Iteration: 20 Loss: 0.0196877
+Iteration: 30 Loss: 0.0138466
+Iteration: 40 Loss: 0.0092443
+Accuracy (86): 0.927
+Iteration: 0 Loss: 0.0205557
+Iteration: 10 Loss: 0.0306724
+Iteration: 20 Loss: 0.0378985
+Iteration: 30 Loss: 0.0324673
+Iteration: 40 Loss: 0.0232631
+Accuracy (87): 0.948
+Iteration: 0 Loss: 0.0286577
+Iteration: 10 Loss: 0.0523629
+Iteration: 20 Loss: 0.0223855
+Iteration: 30 Loss: 0.0175606
+Iteration: 40 Loss: 0.0227377
+Accuracy (88): 0.938
+Iteration: 0 Loss: 0.015454
+Iteration: 10 Loss: 0.0439894
+Iteration: 20 Loss: 0.0152355
+Iteration: 30 Loss: 0.0157114
+Iteration: 40 Loss: 0.0105033
+Accuracy (89): 0.935
+Iteration: 0 Loss: 0.0331289
+Iteration: 10 Loss: 0.031293
+Iteration: 20 Loss: 0.0227807
+Iteration: 30 Loss: 0.0113275
+Iteration: 40 Loss: 0.0108609
+Accuracy (90): 0.944
+Iteration: 0 Loss: 0.0318161
+Iteration: 10 Loss: 0.0306039
+Iteration: 20 Loss: 0.0137008
+Iteration: 30 Loss: 0.0101362
+Iteration: 40 Loss: 0.00583187
+Accuracy (91): 0.946
+Iteration: 0 Loss: 0.0382546
+Iteration: 10 Loss: 0.0336911
+Iteration: 20 Loss: 0.0249087
+Iteration: 30 Loss: 0.0210996
+Iteration: 40 Loss: 0.0182435
+Accuracy (92): 0.943
+Iteration: 0 Loss: 0.0196746
+Iteration: 10 Loss: 0.0339813
+Iteration: 20 Loss: 0.0258782
+Iteration: 30 Loss: 0.0226111
+Iteration: 40 Loss: 0.0237628
+Accuracy (93): 0.943
+Iteration: 0 Loss: 0.0295228
+Iteration: 10 Loss: 0.0322858
+Iteration: 20 Loss: 0.0186656
+Iteration: 30 Loss: 0.0119547
+Iteration: 40 Loss: 0.0200753
+Accuracy (94): 0.951
+Iteration: 0 Loss: 0.0173967
+Iteration: 10 Loss: 0.0299031
+Iteration: 20 Loss: 0.0127078
+Iteration: 30 Loss: 0.0165011
+Iteration: 40 Loss: 0.0159801
+Accuracy (95): 0.944
+Iteration: 0 Loss: 0.0305355
+Iteration: 10 Loss: 0.0324222
+Iteration: 20 Loss: 0.0136532
+Iteration: 30 Loss: 0.0134261
+Iteration: 40 Loss: 0.0119986
+Accuracy (96): 0.942
+Iteration: 0 Loss: 0.0215548
+Iteration: 10 Loss: 0.0282845
+Iteration: 20 Loss: 0.024557
+Iteration: 30 Loss: 0.0123171
+Iteration: 40 Loss: 0.0179837
+Accuracy (97): 0.954
+Iteration: 0 Loss: 0.0129435
+Iteration: 10 Loss: 0.0324712
+Iteration: 20 Loss: 0.024239
+Iteration: 30 Loss: 0.0118743
+Iteration: 40 Loss: 0.0141596
+Accuracy (98): 0.939
+Iteration: 0 Loss: 0.014091
+Iteration: 10 Loss: 0.029085
+Iteration: 20 Loss: 0.0109942
+Iteration: 30 Loss: 0.0132698
+Iteration: 40 Loss: 0.0179543
+Accuracy (99): 0.946
+Iteration: 0 Loss: 0.0303164
+Iteration: 10 Loss: 0.0284883
+Iteration: 20 Loss: 0.0165673
+Iteration: 30 Loss: 0.018434
+Iteration: 40 Loss: 0.0111236
+Accuracy (100): 0.952
+Iteration: 0 Loss: 0.0183879
+Iteration: 10 Loss: 0.0281516
+Iteration: 20 Loss: 0.0101345
+Iteration: 30 Loss: 0.0222476
+Iteration: 40 Loss: 0.0146432
+Accuracy (101): 0.947
+Iteration: 0 Loss: 0.0210239
+Iteration: 10 Loss: 0.0353426
+Iteration: 20 Loss: 0.0166492
+Iteration: 30 Loss: 0.0278794
+Iteration: 40 Loss: 0.0116535
+Accuracy (102): 0.939
+Iteration: 0 Loss: 0.0468838
+Iteration: 10 Loss: 0.028731
+Iteration: 20 Loss: 0.0132639
+Iteration: 30 Loss: 0.0264569
+Iteration: 40 Loss: 0.0165144
+Accuracy (103): 0.952
+Iteration: 0 Loss: 0.0111762
+Iteration: 10 Loss: 0.0269885
+Iteration: 20 Loss: 0.0254474
+Iteration: 30 Loss: 0.0332757
+Iteration: 40 Loss: 0.0109421
+Accuracy (104): 0.947
+Iteration: 0 Loss: 0.0155419
+Iteration: 10 Loss: 0.0369694
+Iteration: 20 Loss: 0.0191551
+Iteration: 30 Loss: 0.010814
+Iteration: 40 Loss: 0.00841235
+Accuracy (105): 0.947
+Iteration: 0 Loss: 0.0130111
+Iteration: 10 Loss: 0.024014
+Iteration: 20 Loss: 0.0140743
+Iteration: 30 Loss: 0.0310472
+Iteration: 40 Loss: 0.00810322
+Accuracy (106): 0.943
+Iteration: 0 Loss: 0.0261136
+Iteration: 10 Loss: 0.0415033
+Iteration: 20 Loss: 0.0191971
+Iteration: 30 Loss: 0.0176138
+Iteration: 40 Loss: 0.00944956
+Accuracy (107): 0.938
+Iteration: 0 Loss: 0.0486165
+Iteration: 10 Loss: 0.0214112
+Iteration: 20 Loss: 0.0151423
+Iteration: 30 Loss: 0.01616
+Iteration: 40 Loss: 0.0158209
+Accuracy (108): 0.949
+Iteration: 0 Loss: 0.0229796
+Iteration: 10 Loss: 0.0530785
+Iteration: 20 Loss: 0.0114141
+Iteration: 30 Loss: 0.0128665
+Iteration: 40 Loss: 0.0124643
+Accuracy (109): 0.95
+Iteration: 0 Loss: 0.0103716
+Iteration: 10 Loss: 0.030517
+Iteration: 20 Loss: 0.026286
+Iteration: 30 Loss: 0.0450221
+Iteration: 40 Loss: 0.0171447
+Accuracy (110): 0.953
+Iteration: 0 Loss: 0.0185785
+Iteration: 10 Loss: 0.0250242
+Iteration: 20 Loss: 0.0187731
+Iteration: 30 Loss: 0.0201489
+Iteration: 40 Loss: 0.00914669
+Accuracy (111): 0.949
+Iteration: 0 Loss: 0.0320802
+Iteration: 10 Loss: 0.0448262
+Iteration: 20 Loss: 0.0165757
+Iteration: 30 Loss: 0.00962344
+Iteration: 40 Loss: 0.0147461
+Accuracy (112): 0.949
+Iteration: 0 Loss: 0.019775
+Iteration: 10 Loss: 0.0269887
+Iteration: 20 Loss: 0.0183122
+Iteration: 30 Loss: 0.010391
+Iteration: 40 Loss: 0.00891651
+Accuracy (113): 0.936
+Iteration: 0 Loss: 0.018856
+Iteration: 10 Loss: 0.0221765
+Iteration: 20 Loss: 0.014676
+Iteration: 30 Loss: 0.00948734
+Iteration: 40 Loss: 0.00938989
+Accuracy (114): 0.948
+Iteration: 0 Loss: 0.00739481
+Iteration: 10 Loss: 0.0408226
+Iteration: 20 Loss: 0.0106046
+Iteration: 30 Loss: 0.00763954
+Iteration: 40 Loss: 0.0050992
+Accuracy (115): 0.946
+Iteration: 0 Loss: 0.0105868
+Iteration: 10 Loss: 0.0211454
+Iteration: 20 Loss: 0.0147555
+Iteration: 30 Loss: 0.00504319
+Iteration: 40 Loss: 0.0125169
+Accuracy (116): 0.948
+Iteration: 0 Loss: 0.016526
+Iteration: 10 Loss: 0.034006
+Iteration: 20 Loss: 0.00991177
+Iteration: 30 Loss: 0.0165354
+Iteration: 40 Loss: 0.00952566
+Accuracy (117): 0.943
+Iteration: 0 Loss: 0.0117407
+Iteration: 10 Loss: 0.0378322
+Iteration: 20 Loss: 0.00741438
+Iteration: 30 Loss: 0.0090159
+Iteration: 40 Loss: 0.0117261
+Accuracy (118): 0.935
+Iteration: 0 Loss: 0.0196535
+Iteration: 10 Loss: 0.0288796
+Iteration: 20 Loss: 0.0168871
+Iteration: 30 Loss: 0.013259
+Iteration: 40 Loss: 0.0108927
+Accuracy (119): 0.945
+Iteration: 0 Loss: 0.0138449
+Iteration: 10 Loss: 0.0213964
+Iteration: 20 Loss: 0.00850634
+Iteration: 30 Loss: 0.0081584
+Iteration: 40 Loss: 0.00780222
+Accuracy (120): 0.949
+Iteration: 0 Loss: 0.0137428
+Iteration: 10 Loss: 0.0214166
+Iteration: 20 Loss: 0.013679
+Iteration: 30 Loss: 0.01174
+Iteration: 40 Loss: 0.00415232
+Accuracy (121): 0.95
+Iteration: 0 Loss: 0.0134232
+Iteration: 10 Loss: 0.0116236
+Iteration: 20 Loss: 0.00948975
+Iteration: 30 Loss: 0.02487
+Iteration: 40 Loss: 0.0155801
+Accuracy (122): 0.941
+Iteration: 0 Loss: 0.0180797
+Iteration: 10 Loss: 0.0202059
+Iteration: 20 Loss: 0.0164892
+Iteration: 30 Loss: 0.0208809
+Iteration: 40 Loss: 0.0120305
+Accuracy (123): 0.952
+Iteration: 0 Loss: 0.015272
+Iteration: 10 Loss: 0.0149142
+Iteration: 20 Loss: 0.0104421
+Iteration: 30 Loss: 0.0133763
+Iteration: 40 Loss: 0.00988291
+Accuracy (124): 0.948
+Iteration: 0 Loss: 0.0188988
+Iteration: 10 Loss: 0.0191351
+Iteration: 20 Loss: 0.00710634
+Iteration: 30 Loss: 0.0113504
+Iteration: 40 Loss: 0.0091289
+Accuracy (125): 0.946
+Iteration: 0 Loss: 0.00795696
+Iteration: 10 Loss: 0.0211341
+Iteration: 20 Loss: 0.0128145
+Iteration: 30 Loss: 0.0190516
+Iteration: 40 Loss: 0.0105781
+Accuracy (126): 0.949
+Iteration: 0 Loss: 0.0126742
+Iteration: 10 Loss: 0.0141142
+Iteration: 20 Loss: 0.0103555
+Iteration: 30 Loss: 0.0409006
+Iteration: 40 Loss: 0.00934003
+Accuracy (127): 0.943
+Iteration: 0 Loss: 0.00703816
+Iteration: 10 Loss: 0.0149595
+Iteration: 20 Loss: 0.0223978
+Iteration: 30 Loss: 0.0187595
+Iteration: 40 Loss: 0.00826696
+Accuracy (128): 0.951
+Iteration: 0 Loss: 0.0168364
+Iteration: 10 Loss: 0.04091
+Iteration: 20 Loss: 0.0147035
+Iteration: 30 Loss: 0.01797
+Iteration: 40 Loss: 0.0140535
+Accuracy (129): 0.945
+Iteration: 0 Loss: 0.0218101
+Iteration: 10 Loss: 0.0162151
+Iteration: 20 Loss: 0.0143321
+Iteration: 30 Loss: 0.00862699
+Iteration: 40 Loss: 0.00722671
+Accuracy (130): 0.946
+Iteration: 0 Loss: 0.011881
+Iteration: 10 Loss: 0.026548
+Iteration: 20 Loss: 0.00822681
+Iteration: 30 Loss: 0.0128924
+Iteration: 40 Loss: 0.0100915
+Accuracy (131): 0.949
+Iteration: 0 Loss: 0.00616237
+Iteration: 10 Loss: 0.015949
+Iteration: 20 Loss: 0.0105627
+Iteration: 30 Loss: 0.00604271
+Iteration: 40 Loss: 0.00743682
+Accuracy (132): 0.949
+Iteration: 0 Loss: 0.00703868
+Iteration: 10 Loss: 0.0069544
+Iteration: 20 Loss: 0.00830947
+Iteration: 30 Loss: 0.0249077
+Iteration: 40 Loss: 0.00826188
+Accuracy (133): 0.955
+Iteration: 0 Loss: 0.00908723
+Iteration: 10 Loss: 0.012424
+Iteration: 20 Loss: 0.00760391
+Iteration: 30 Loss: 0.0151799
+Iteration: 40 Loss: 0.0038138
+Accuracy (134): 0.95
+Iteration: 0 Loss: 0.0199134
+Iteration: 10 Loss: 0.0120696
+Iteration: 20 Loss: 0.0154667
+Iteration: 30 Loss: 0.0245229
+Iteration: 40 Loss: 0.0111834
+Accuracy (135): 0.951
+Iteration: 0 Loss: 0.0105018
+Iteration: 10 Loss: 0.015067
+Iteration: 20 Loss: 0.0115536
+Iteration: 30 Loss: 0.00954897
+Iteration: 40 Loss: 0.00779821
+Accuracy (136): 0.945
+Iteration: 0 Loss: 0.00803783
+Iteration: 10 Loss: 0.0166387
+Iteration: 20 Loss: 0.012857
+Iteration: 30 Loss: 0.00618523
+Iteration: 40 Loss: 0.00824644
+Accuracy (137): 0.952
+Iteration: 0 Loss: 0.00986453
+Iteration: 10 Loss: 0.00864748
+Iteration: 20 Loss: 0.0199476
+Iteration: 30 Loss: 0.00670132
+Iteration: 40 Loss: 0.0053194
+Accuracy (138): 0.946
+Iteration: 0 Loss: 0.0356093
+Iteration: 10 Loss: 0.00918167
+Iteration: 20 Loss: 0.0128744
+Iteration: 30 Loss: 0.0250573
+Iteration: 40 Loss: 0.0072213
+Accuracy (139): 0.943
+Iteration: 0 Loss: 0.017379
+Iteration: 10 Loss: 0.0127628
+Iteration: 20 Loss: 0.0161868
+Iteration: 30 Loss: 0.00903319
+Iteration: 40 Loss: 0.00482905
+Accuracy (140): 0.946
+Iteration: 0 Loss: 0.0101983
+Iteration: 10 Loss: 0.0126287
+Iteration: 20 Loss: 0.0111864
+Iteration: 30 Loss: 0.00709599
+Iteration: 40 Loss: 0.00605372
+Accuracy (141): 0.953
+Iteration: 0 Loss: 0.00389155
+Iteration: 10 Loss: 0.0101356
+Iteration: 20 Loss: 0.00703102
+Iteration: 30 Loss: 0.0199343
+Iteration: 40 Loss: 0.00691217
+Accuracy (142): 0.94
+Iteration: 0 Loss: 0.00539943
+Iteration: 10 Loss: 0.0119624
+Iteration: 20 Loss: 0.00859136
+Iteration: 30 Loss: 0.00784347
+Iteration: 40 Loss: 0.00545316
+Accuracy (143): 0.939
+Iteration: 0 Loss: 0.00903548
+Iteration: 10 Loss: 0.00718642
+Iteration: 20 Loss: 0.00895084
+Iteration: 30 Loss: 0.013175
+Iteration: 40 Loss: 0.00585835
+Accuracy (144): 0.941
+Iteration: 0 Loss: 0.00760501
+Iteration: 10 Loss: 0.0152082
+Iteration: 20 Loss: 0.014871
+Iteration: 30 Loss: 0.0148391
+Iteration: 40 Loss: 0.010034
+Accuracy (145): 0.948
+Iteration: 0 Loss: 0.00380412
+Iteration: 10 Loss: 0.0161444
+Iteration: 20 Loss: 0.0116867
+Iteration: 30 Loss: 0.00560795
+Iteration: 40 Loss: 0.0104307
+Accuracy (146): 0.952
+Iteration: 0 Loss: 0.00440148
+Iteration: 10 Loss: 0.0087934
+Iteration: 20 Loss: 0.00855365
+Iteration: 30 Loss: 0.00846697
+Iteration: 40 Loss: 0.00456518
+Accuracy (147): 0.95
+Iteration: 0 Loss: 0.0049804
+Iteration: 10 Loss: 0.0164301
+Iteration: 20 Loss: 0.0065328
+Iteration: 30 Loss: 0.010778
+Iteration: 40 Loss: 0.00487636
+Accuracy (148): 0.946
+Iteration: 0 Loss: 0.0112072
+Iteration: 10 Loss: 0.0116794
+Iteration: 20 Loss: 0.0110324
+Iteration: 30 Loss: 0.0180434
+Iteration: 40 Loss: 0.00685369
+Accuracy (149): 0.94
+Iteration: 0 Loss: 0.0213948
+Iteration: 10 Loss: 0.0211964
+Iteration: 20 Loss: 0.00571478
+Iteration: 30 Loss: 0.00555245
+Iteration: 40 Loss: 0.00684529
+Accuracy (150): 0.95
+Iteration: 0 Loss: 0.0069838
+Iteration: 10 Loss: 0.0245475
+Iteration: 20 Loss: 0.00791549
+Iteration: 30 Loss: 0.00675899
+Iteration: 40 Loss: 0.0115396
+Accuracy (151): 0.946
+Iteration: 0 Loss: 0.00836296
+Iteration: 10 Loss: 0.00651483
+Iteration: 20 Loss: 0.0101711
+Iteration: 30 Loss: 0.0138013
+Iteration: 40 Loss: 0.0225528
+Accuracy (152): 0.944
+Iteration: 0 Loss: 0.00422376
+Iteration: 10 Loss: 0.0181901
+Iteration: 20 Loss: 0.00437899
+Iteration: 30 Loss: 0.0108513
+Iteration: 40 Loss: 0.00458326
+Accuracy (153): 0.952
+Iteration: 0 Loss: 0.00788055
+Iteration: 10 Loss: 0.0113999
+Iteration: 20 Loss: 0.0123738
+Iteration: 30 Loss: 0.00913922
+Iteration: 40 Loss: 0.00703202
+Accuracy (154): 0.949
+Iteration: 0 Loss: 0.00625438
+Iteration: 10 Loss: 0.0270319
+Iteration: 20 Loss: 0.00606737
+Iteration: 30 Loss: 0.00543681
+Iteration: 40 Loss: 0.00677104
+Accuracy (155): 0.95
+Iteration: 0 Loss: 0.0185062
+Iteration: 10 Loss: 0.00801603
+Iteration: 20 Loss: 0.00458918
+Iteration: 30 Loss: 0.0111443
+Iteration: 40 Loss: 0.00814473
+Accuracy (156): 0.954
+Iteration: 0 Loss: 0.0105731
+Iteration: 10 Loss: 0.0106049
+Iteration: 20 Loss: 0.00475618
+Iteration: 30 Loss: 0.00412408
+Iteration: 40 Loss: 0.00347874
+Accuracy (157): 0.947
+Iteration: 0 Loss: 0.00502565
+Iteration: 10 Loss: 0.0124883
+Iteration: 20 Loss: 0.00676669
+Iteration: 30 Loss: 0.00741224
+Iteration: 40 Loss: 0.0017603
+Accuracy (158): 0.951
+Iteration: 0 Loss: 0.00657034
+Iteration: 10 Loss: 0.0200534
+Iteration: 20 Loss: 0.00537914
+Iteration: 30 Loss: 0.00795163
+Iteration: 40 Loss: 0.00819419
+Accuracy (159): 0.944
+Iteration: 0 Loss: 0.00803191
+Iteration: 10 Loss: 0.00717781
+Iteration: 20 Loss: 0.00847712
+Iteration: 30 Loss: 0.00789987
+Iteration: 40 Loss: 0.0067594
+Accuracy (160): 0.95
+Iteration: 0 Loss: 0.0187551
+Iteration: 10 Loss: 0.0185819
+Iteration: 20 Loss: 0.00667918
+Iteration: 30 Loss: 0.00943171
+Iteration: 40 Loss: 0.0158396
+Accuracy (161): 0.942
+Iteration: 0 Loss: 0.024118
+Iteration: 10 Loss: 0.018323
+Iteration: 20 Loss: 0.00383623
+Iteration: 30 Loss: 0.0143865
+Iteration: 40 Loss: 0.00430634
+Accuracy (162): 0.94
+Iteration: 0 Loss: 0.00792994
+Iteration: 10 Loss: 0.0144501
+Iteration: 20 Loss: 0.00603271
+Iteration: 30 Loss: 0.00695427
+Iteration: 40 Loss: 0.0154705
+Accuracy (163): 0.948
+Iteration: 0 Loss: 0.0126923
+Iteration: 10 Loss: 0.00553037
+Iteration: 20 Loss: 0.00366832
+Iteration: 30 Loss: 0.0136641
+Iteration: 40 Loss: 0.0212895
+Accuracy (164): 0.946
+Iteration: 0 Loss: 0.00732152
+Iteration: 10 Loss: 0.0315984
+Iteration: 20 Loss: 0.0156022
+Iteration: 30 Loss: 0.00688093
+Iteration: 40 Loss: 0.0079231
+Accuracy (165): 0.946
+Iteration: 0 Loss: 0.0209997
+Iteration: 10 Loss: 0.0212656
+Iteration: 20 Loss: 0.00804009
+Iteration: 30 Loss: 0.0169579
+Iteration: 40 Loss: 0.0111778
+Accuracy (166): 0.953
+Iteration: 0 Loss: 0.00863848
+Iteration: 10 Loss: 0.0208464
+Iteration: 20 Loss: 0.00650698
+Iteration: 30 Loss: 0.00743699
+Iteration: 40 Loss: 0.0026113
+Accuracy (167): 0.951
+Iteration: 0 Loss: 0.00749207
+Iteration: 10 Loss: 0.00756326
+Iteration: 20 Loss: 0.00693171
+Iteration: 30 Loss: 0.0180953
+Iteration: 40 Loss: 0.00528191
+Accuracy (168): 0.949
+Iteration: 0 Loss: 0.0102266
+Iteration: 10 Loss: 0.00589647
+Iteration: 20 Loss: 0.00558931
+Iteration: 30 Loss: 0.00591106
+Iteration: 40 Loss: 0.00201322
+Accuracy (169): 0.947
+Iteration: 0 Loss: 0.00275672
+Iteration: 10 Loss: 0.00644462
+Iteration: 20 Loss: 0.00937061
+Iteration: 30 Loss: 0.00434672
+Iteration: 40 Loss: 0.00217117
+Accuracy (170): 0.937
+Iteration: 0 Loss: 0.0119543
+Iteration: 10 Loss: 0.010912
+Iteration: 20 Loss: 0.0106851
+Iteration: 30 Loss: 0.00582185
+Iteration: 40 Loss: 0.00219818
+Accuracy (171): 0.95
+Iteration: 0 Loss: 0.0123557
+Iteration: 10 Loss: 0.00722887
+Iteration: 20 Loss: 0.00629041
+Iteration: 30 Loss: 0.00227481
+Iteration: 40 Loss: 0.0077835
+Accuracy (172): 0.946
+Iteration: 0 Loss: 0.00735029
+Iteration: 10 Loss: 0.0116705
+Iteration: 20 Loss: 0.00869764
+Iteration: 30 Loss: 0.00772205
+Iteration: 40 Loss: 0.00947013
+Accuracy (173): 0.945
+Iteration: 0 Loss: 0.020922
+Iteration: 10 Loss: 0.0315963
+Iteration: 20 Loss: 0.00374873
+Iteration: 30 Loss: 0.0259073
+Iteration: 40 Loss: 0.00986057
+Accuracy (174): 0.946
+Iteration: 0 Loss: 0.00744068
+Iteration: 10 Loss: 0.0103707
+Iteration: 20 Loss: 0.00482521
+Iteration: 30 Loss: 0.00550597
+Iteration: 40 Loss: 0.00369412
+Accuracy (175): 0.944
+Iteration: 0 Loss: 0.0281126
+Iteration: 10 Loss: 0.0218319
+Iteration: 20 Loss: 0.00530016
+Iteration: 30 Loss: 0.00978773
+Iteration: 40 Loss: 0.00241007
+Accuracy (176): 0.95
+Iteration: 0 Loss: 0.00455016
+Iteration: 10 Loss: 0.0058952
+Iteration: 20 Loss: 0.0133213
+Iteration: 30 Loss: 0.00561834
+Iteration: 40 Loss: 0.00240279
+Accuracy (177): 0.947
+Iteration: 0 Loss: 0.00585966
+Iteration: 10 Loss: 0.00530499
+Iteration: 20 Loss: 0.0106445
+Iteration: 30 Loss: 0.0124958
+Iteration: 40 Loss: 0.0115151
+Accuracy (178): 0.939
+Iteration: 0 Loss: 0.0118419
+Iteration: 10 Loss: 0.00596157
+Iteration: 20 Loss: 0.0125427
+Iteration: 30 Loss: 0.00919608
+Iteration: 40 Loss: 0.00277717
+Accuracy (179): 0.951
+Iteration: 0 Loss: 0.00348949
+Iteration: 10 Loss: 0.00898878
+Iteration: 20 Loss: 0.0115317
+Iteration: 30 Loss: 0.00542922
+Iteration: 40 Loss: 0.00560353
+Accuracy (180): 0.946
+Iteration: 0 Loss: 0.00939822
+Iteration: 10 Loss: 0.00538119
+Iteration: 20 Loss: 0.00683727
+Iteration: 30 Loss: 0.00712772
+Iteration: 40 Loss: 0.00614993
+Accuracy (181): 0.942
+Iteration: 0 Loss: 0.0169278
+Iteration: 10 Loss: 0.0304002
+Iteration: 20 Loss: 0.00608403
+Iteration: 30 Loss: 0.00395789
+Iteration: 40 Loss: 0.00539007
+Accuracy (182): 0.95
+Iteration: 0 Loss: 0.00294789
+Iteration: 10 Loss: 0.0157227
+Iteration: 20 Loss: 0.011951
+Iteration: 30 Loss: 0.0159167
+Iteration: 40 Loss: 0.00197576
+Accuracy (183): 0.947
+Iteration: 0 Loss: 0.0131454
+Iteration: 10 Loss: 0.0118204
+Iteration: 20 Loss: 0.00376982
+Iteration: 30 Loss: 0.0110131
+Iteration: 40 Loss: 0.00263488
+Accuracy (184): 0.946
+Iteration: 0 Loss: 0.00713291
+Iteration: 10 Loss: 0.00892737
+Iteration: 20 Loss: 0.00615155
+Iteration: 30 Loss: 0.00496918
+Iteration: 40 Loss: 0.00703322
+Accuracy (185): 0.953
+Iteration: 0 Loss: 0.00575407
+Iteration: 10 Loss: 0.00932316
+Iteration: 20 Loss: 0.00291893
+Iteration: 30 Loss: 0.00108449
+Iteration: 40 Loss: 0.00183207
+Accuracy (186): 0.953
+Iteration: 0 Loss: 0.00364535
+Iteration: 10 Loss: 0.00801196
+Iteration: 20 Loss: 0.00520863
+Iteration: 30 Loss: 0.00365374
+Iteration: 40 Loss: 0.00308185
+Accuracy (187): 0.951
+Iteration: 0 Loss: 0.006334
+Iteration: 10 Loss: 0.00687354
+Iteration: 20 Loss: 0.0379698
+Iteration: 30 Loss: 0.0121912
+Iteration: 40 Loss: 0.00439095
+Accuracy (188): 0.945
+Iteration: 0 Loss: 0.00641445
+Iteration: 10 Loss: 0.0158761
+Iteration: 20 Loss: 0.00938858
+Iteration: 30 Loss: 0.00855413
+Iteration: 40 Loss: 0.00539255
+Accuracy (189): 0.948
+Iteration: 0 Loss: 0.0138837
+Iteration: 10 Loss: 0.00687481
+Iteration: 20 Loss: 0.0111439
+Iteration: 30 Loss: 0.00329888
+Iteration: 40 Loss: 0.00744949
+Accuracy (190): 0.947
+Iteration: 0 Loss: 0.00539026
+Iteration: 10 Loss: 0.0215045
+Iteration: 20 Loss: 0.00551152
+Iteration: 30 Loss: 0.0120464
+Iteration: 40 Loss: 0.00602156
+Accuracy (191): 0.952
+Iteration: 0 Loss: 0.0104425
+Iteration: 10 Loss: 0.00667273
+Iteration: 20 Loss: 0.00917702
+Iteration: 30 Loss: 0.013905
+Iteration: 40 Loss: 0.00260443
+Accuracy (192): 0.949
+Iteration: 0 Loss: 0.00622402
+Iteration: 10 Loss: 0.0094561
+Iteration: 20 Loss: 0.00938605
+Iteration: 30 Loss: 0.00421699
+Iteration: 40 Loss: 0.00150687
+Accuracy (193): 0.948
+Iteration: 0 Loss: 0.00914687
+Iteration: 10 Loss: 0.0101544
+Iteration: 20 Loss: 0.0183373
+Iteration: 30 Loss: 0.00472477
+Iteration: 40 Loss: 0.00192014
+Accuracy (194): 0.946
+Iteration: 0 Loss: 0.0141397
+Iteration: 10 Loss: 0.0138048
+Iteration: 20 Loss: 0.0199192
+Iteration: 30 Loss: 0.0253383
+Iteration: 40 Loss: 0.00186839
+Accuracy (195): 0.949
+Iteration: 0 Loss: 0.00538451
+Iteration: 10 Loss: 0.0101096
+Iteration: 20 Loss: 0.00914005
+Iteration: 30 Loss: 0.00658242
+Iteration: 40 Loss: 0.00523901
+Accuracy (196): 0.948
+Iteration: 0 Loss: 0.00289479
+Iteration: 10 Loss: 0.0182211
+Iteration: 20 Loss: 0.0039331
+Iteration: 30 Loss: 0.0119982
+Iteration: 40 Loss: 0.00200447
+Accuracy (197): 0.95
+Iteration: 0 Loss: 0.00578581
+Iteration: 10 Loss: 0.004356
+Iteration: 20 Loss: 0.0114038
+Iteration: 30 Loss: 0.00311643
+Iteration: 40 Loss: 0.00282356
+Accuracy (198): 0.958
+Iteration: 0 Loss: 0.0179288
+Iteration: 10 Loss: 0.00598871
+Iteration: 20 Loss: 0.00997142
+Iteration: 30 Loss: 0.0141169
+Iteration: 40 Loss: 0.00151694
+Accuracy (199): 0.95
+Iteration: 0 Loss: 0.00466356
+Iteration: 10 Loss: 0.012153
+Iteration: 20 Loss: 0.00450423
+Iteration: 30 Loss: 0.00208823
+Iteration: 40 Loss: 0.00443682
+Accuracy (200): 0.947
+Iteration: 0 Loss: 0.00606267
+Iteration: 10 Loss: 0.00986886
+Iteration: 20 Loss: 0.00315459
+Iteration: 30 Loss: 0.010455
+Iteration: 40 Loss: 0.00488367
+Accuracy (201): 0.946
+Iteration: 0 Loss: 0.00630547
+Iteration: 10 Loss: 0.00404819
+Iteration: 20 Loss: 0.00329177
+Iteration: 30 Loss: 0.00428062
+Iteration: 40 Loss: 0.00227323
+Accuracy (202): 0.941
+Iteration: 0 Loss: 0.0203015
+Iteration: 10 Loss: 0.0194831
+Iteration: 20 Loss: 0.00593623
+Iteration: 30 Loss: 0.00804083
+Iteration: 40 Loss: 0.00831026
+Accuracy (203): 0.951
+Iteration: 0 Loss: 0.0118374
+Iteration: 10 Loss: 0.00898219
+Iteration: 20 Loss: 0.00560239
+Iteration: 30 Loss: 0.00497288
+Iteration: 40 Loss: 0.00272987
+Accuracy (204): 0.949
+Iteration: 0 Loss: 0.00451968
+Iteration: 10 Loss: 0.0138469
+Iteration: 20 Loss: 0.00275213
+Iteration: 30 Loss: 0.0101701
+Iteration: 40 Loss: 0.000907649
+Accuracy (205): 0.951
+Iteration: 0 Loss: 0.0074364
+Iteration: 10 Loss: 0.00659822
+Iteration: 20 Loss: 0.00599375
+Iteration: 30 Loss: 0.00866418
+Iteration: 40 Loss: 0.00442875
+Accuracy (206): 0.95
+Iteration: 0 Loss: 0.00948218
+Iteration: 10 Loss: 0.00475165
+Iteration: 20 Loss: 0.00210686
+Iteration: 30 Loss: 0.00591216
+Iteration: 40 Loss: 0.00981734
+Accuracy (207): 0.945
+Iteration: 0 Loss: 0.0308407
+Iteration: 10 Loss: 0.0179541
+Iteration: 20 Loss: 0.0038015
+Iteration: 30 Loss: 0.0442205
+Iteration: 40 Loss: 0.00354393
+Accuracy (208): 0.95
+Iteration: 0 Loss: 0.00289529
+Iteration: 10 Loss: 0.0118069
+Iteration: 20 Loss: 0.00464615
+Iteration: 30 Loss: 0.046832
+Iteration: 40 Loss: 0.00149508
+Accuracy (209): 0.948
+Iteration: 0 Loss: 0.00866494
+Iteration: 10 Loss: 0.0104267
+Iteration: 20 Loss: 0.00974206
+Iteration: 30 Loss: 0.0133546
+Iteration: 40 Loss: 0.0045592
+Accuracy (210): 0.95
+Iteration: 0 Loss: 0.00456571
+Iteration: 10 Loss: 0.01678
+Iteration: 20 Loss: 0.0113307
+Iteration: 30 Loss: 0.00615765
+Iteration: 40 Loss: 0.00872356
+Accuracy (211): 0.959
+Iteration: 0 Loss: 0.00590512
+Iteration: 10 Loss: 0.013829
+Iteration: 20 Loss: 0.00394568
+Iteration: 30 Loss: 0.00416458
+Iteration: 40 Loss: 0.00810213
+Accuracy (212): 0.953
+Iteration: 0 Loss: 0.00922547
+Iteration: 10 Loss: 0.00699384
+Iteration: 20 Loss: 0.00338448
+Iteration: 30 Loss: 0.00210781
+Iteration: 40 Loss: 0.00921975
+Accuracy (213): 0.954
+Iteration: 0 Loss: 0.0127123
+Iteration: 10 Loss: 0.0126767
+Iteration: 20 Loss: 0.00741801
+Iteration: 30 Loss: 0.0233893
+Iteration: 40 Loss: 0.0022192
+Accuracy (214): 0.949
+Iteration: 0 Loss: 0.017494
+Iteration: 10 Loss: 0.00466493
+Iteration: 20 Loss: 0.00365062
+Iteration: 30 Loss: 0.0109768
+Iteration: 40 Loss: 0.00330614
+Accuracy (215): 0.954
+Iteration: 0 Loss: 0.00442893
+Iteration: 10 Loss: 0.0353947
+Iteration: 20 Loss: 0.00581992
+Iteration: 30 Loss: 0.00342294
+Iteration: 40 Loss: 0.00286062
+Accuracy (216): 0.95
+Iteration: 0 Loss: 0.0169095
+Iteration: 10 Loss: 0.0153288
+Iteration: 20 Loss: 0.00394556
+Iteration: 30 Loss: 0.00448895
+Iteration: 40 Loss: 0.00442912
+Accuracy (217): 0.952
+Iteration: 0 Loss: 0.00940042
+Iteration: 10 Loss: 0.0087676
+Iteration: 20 Loss: 0.00758413
+Iteration: 30 Loss: 0.00100798
+Iteration: 40 Loss: 0.00323899
+Accuracy (218): 0.954
+Iteration: 0 Loss: 0.00229208
+Iteration: 10 Loss: 0.013991
+Iteration: 20 Loss: 0.00245072
+Iteration: 30 Loss: 0.00533142
+Iteration: 40 Loss: 0.00233907
+Accuracy (219): 0.945
+Iteration: 0 Loss: 0.0031086
+Iteration: 10 Loss: 0.00739904
+Iteration: 20 Loss: 0.0100935
+Iteration: 30 Loss: 0.0215045
+Iteration: 40 Loss: 0.00190753
+Accuracy (220): 0.946
+Iteration: 0 Loss: 0.00810487
+Iteration: 10 Loss: 0.00421718
+Iteration: 20 Loss: 0.0110839
+Iteration: 30 Loss: 0.0194092
+Iteration: 40 Loss: 0.00206755
+Accuracy (221): 0.95
+Iteration: 0 Loss: 0.00217694
+Iteration: 10 Loss: 0.00609493
+Iteration: 20 Loss: 0.0042744
+Iteration: 30 Loss: 0.00619642
+Iteration: 40 Loss: 0.00239087
+Accuracy (222): 0.946
+Iteration: 0 Loss: 0.00359928
+Iteration: 10 Loss: 0.00410956
+Iteration: 20 Loss: 0.00331099
+Iteration: 30 Loss: 0.00605607
+Iteration: 40 Loss: 0.021098
+Accuracy (223): 0.947
+Iteration: 0 Loss: 0.00985323
+Iteration: 10 Loss: 0.00317771
+Iteration: 20 Loss: 0.0109614
+Iteration: 30 Loss: 0.00368065
+Iteration: 40 Loss: 0.00412836
+Accuracy (224): 0.944
+Iteration: 0 Loss: 0.00501182
+Iteration: 10 Loss: 0.00208769
+Iteration: 20 Loss: 0.0061533
+Iteration: 30 Loss: 0.00579077
+Iteration: 40 Loss: 0.00707698
+Accuracy (225): 0.944
+Iteration: 0 Loss: 0.00700665
+Iteration: 10 Loss: 0.00957519
+Iteration: 20 Loss: 0.00830717
+Iteration: 30 Loss: 0.00416441
+Iteration: 40 Loss: 0.00414795
+Accuracy (226): 0.949
+Iteration: 0 Loss: 0.00736741
+Iteration: 10 Loss: 0.00503056
+Iteration: 20 Loss: 0.00747906
+Iteration: 30 Loss: 0.0198645
+Iteration: 40 Loss: 0.00698016
+Accuracy (227): 0.944
+Iteration: 0 Loss: 0.00220749
+Iteration: 10 Loss: 0.00262717
+Iteration: 20 Loss: 0.00228474
+Iteration: 30 Loss: 0.0023942
+Iteration: 40 Loss: 0.00333704
+Accuracy (228): 0.95
+Iteration: 0 Loss: 0.00417457
+Iteration: 10 Loss: 0.00694204
+Iteration: 20 Loss: 0.00356623
+Iteration: 30 Loss: 0.00428251
+Iteration: 40 Loss: 0.00187341
+Accuracy (229): 0.945
+Iteration: 0 Loss: 0.0122811
+Iteration: 10 Loss: 0.00544166
+Iteration: 20 Loss: 0.00484489
+Iteration: 30 Loss: 0.031573
+Iteration: 40 Loss: 0.00660781
+Accuracy (230): 0.943
+Iteration: 0 Loss: 0.00362387
+Iteration: 10 Loss: 0.00465278
+Iteration: 20 Loss: 0.0101211
+Iteration: 30 Loss: 0.00324427
+Iteration: 40 Loss: 0.00215242
+Accuracy (231): 0.94
+Iteration: 0 Loss: 0.00472361
+Iteration: 10 Loss: 0.0061423
+Iteration: 20 Loss: 0.0061847
+Iteration: 30 Loss: 0.011191
+Iteration: 40 Loss: 0.00205487
+Accuracy (232): 0.948
+Iteration: 0 Loss: 0.00514368
+Iteration: 10 Loss: 0.00310549
+Iteration: 20 Loss: 0.00307046
+Iteration: 30 Loss: 0.00953139
+Iteration: 40 Loss: 0.0049781
+Accuracy (233): 0.95
+Iteration: 0 Loss: 0.00274013
+Iteration: 10 Loss: 0.00945571
+Iteration: 20 Loss: 0.00477881
+Iteration: 30 Loss: 0.00321028
+Iteration: 40 Loss: 0.00309763
+Accuracy (234): 0.946
+Iteration: 0 Loss: 0.00671546
+Iteration: 10 Loss: 0.0303515
+Iteration: 20 Loss: 0.00516225
+Iteration: 30 Loss: 0.00243457
+Iteration: 40 Loss: 0.00188943
+Accuracy (235): 0.95
+Iteration: 0 Loss: 0.00423136
+Iteration: 10 Loss: 0.01392
+Iteration: 20 Loss: 0.00563773
+Iteration: 30 Loss: 0.0173434
+Iteration: 40 Loss: 0.00297236
+Accuracy (236): 0.946
+Iteration: 0 Loss: 0.00340374
+Iteration: 10 Loss: 0.0024618
+Iteration: 20 Loss: 0.00473482
+Iteration: 30 Loss: 0.00246
+Iteration: 40 Loss: 0.00273329
+Accuracy (237): 0.948
+Iteration: 0 Loss: 0.00364556
+Iteration: 10 Loss: 0.00251122
+Iteration: 20 Loss: 0.0057202
+Iteration: 30 Loss: 0.0188776
+Iteration: 40 Loss: 0.00402526
+Accuracy (238): 0.949
+Iteration: 0 Loss: 0.00692295
+Iteration: 10 Loss: 0.00745461
+Iteration: 20 Loss: 0.00145559
+Iteration: 30 Loss: 0.00265138
+Iteration: 40 Loss: 0.00519638
+Accuracy (239): 0.94
+Iteration: 0 Loss: 0.00441131
+Iteration: 10 Loss: 0.00545369
+Iteration: 20 Loss: 0.00430089
+Iteration: 30 Loss: 0.00102507
+Iteration: 40 Loss: 0.0026939
+Accuracy (240): 0.949
+Iteration: 0 Loss: 0.00647148
+Iteration: 10 Loss: 0.00620053
+Iteration: 20 Loss: 0.00694057
+Iteration: 30 Loss: 0.0125813
+Iteration: 40 Loss: 0.00499566
+Accuracy (241): 0.946
+Iteration: 0 Loss: 0.0103512
+Iteration: 10 Loss: 0.00306898
+Iteration: 20 Loss: 0.00351635
+Iteration: 30 Loss: 0.012373
+Iteration: 40 Loss: 0.00573642
+Accuracy (242): 0.952
+Iteration: 0 Loss: 0.0114246
+Iteration: 10 Loss: 0.0050641
+Iteration: 20 Loss: 0.00268295
+Iteration: 30 Loss: 0.00523831
+Iteration: 40 Loss: 0.00344775
+Accuracy (243): 0.949
+Iteration: 0 Loss: 0.00142531
+Iteration: 10 Loss: 0.00518496
+Iteration: 20 Loss: 0.00442688
+Iteration: 30 Loss: 0.00203722
+Iteration: 40 Loss: 0.00481072
+Accuracy (244): 0.947
+Iteration: 0 Loss: 0.00500095
+Iteration: 10 Loss: 0.00325391
+Iteration: 20 Loss: 0.00381888
+Iteration: 30 Loss: 0.012448
+Iteration: 40 Loss: 0.00189895
+Accuracy (245): 0.947
+Iteration: 0 Loss: 0.00189691
+Iteration: 10 Loss: 0.00238015
+Iteration: 20 Loss: 0.00486519
+Iteration: 30 Loss: 0.00732288
+Iteration: 40 Loss: 0.000905125
+Accuracy (246): 0.945
+Iteration: 0 Loss: 0.00237598
+Iteration: 10 Loss: 0.0122806
+Iteration: 20 Loss: 0.0201157
+Iteration: 30 Loss: 0.00185528
+Iteration: 40 Loss: 0.00463749
+Accuracy (247): 0.946
+Iteration: 0 Loss: 0.0176443
+Iteration: 10 Loss: 0.01032
+Iteration: 20 Loss: 0.00985454
+Iteration: 30 Loss: 0.0124347
+Iteration: 40 Loss: 0.0241611
+Accuracy (248): 0.95
+Iteration: 0 Loss: 0.0111355
+Iteration: 10 Loss: 0.0060629
+Iteration: 20 Loss: 0.00320804
+Iteration: 30 Loss: 0.00820386
+Iteration: 40 Loss: 0.00362255
+Accuracy (249): 0.947
+Iteration: 0 Loss: 0.00755892
+Iteration: 10 Loss: 0.00539252
+Iteration: 20 Loss: 0.0037128
+Iteration: 30 Loss: 0.00192561
+Iteration: 40 Loss: 0.00176138
+Accuracy (250): 0.947
+Iteration: 0 Loss: 0.00563764
+Iteration: 10 Loss: 0.00275546
+Iteration: 20 Loss: 0.00887356
+Iteration: 30 Loss: 0.0012127
+Iteration: 40 Loss: 0.00495077
+Accuracy (251): 0.946
+Iteration: 0 Loss: 0.0069225
+Iteration: 10 Loss: 0.00602324
+Iteration: 20 Loss: 0.00217375
+Iteration: 30 Loss: 0.00369933
+Iteration: 40 Loss: 0.0030813
+Accuracy (252): 0.943
+Iteration: 0 Loss: 0.0182946
+Iteration: 10 Loss: 0.00430809
+Iteration: 20 Loss: 0.00656532
+Iteration: 30 Loss: 0.00186918
+Iteration: 40 Loss: 0.00474621
+Accuracy (253): 0.947
+Iteration: 0 Loss: 0.00522067
+Iteration: 10 Loss: 0.00578952
+Iteration: 20 Loss: 0.0024359
+Iteration: 30 Loss: 0.00159929
+Iteration: 40 Loss: 0.00131909
+Accuracy (254): 0.949
+Iteration: 0 Loss: 0.00241857
+Iteration: 10 Loss: 0.00326129
+Iteration: 20 Loss: 0.00295433
+Iteration: 30 Loss: 0.0183188
+Iteration: 40 Loss: 0.00360759
+Accuracy (255): 0.95
+Iteration: 0 Loss: 0.0023659
+Iteration: 10 Loss: 0.0126985
+Iteration: 20 Loss: 0.00323032
+Iteration: 30 Loss: 0.0109842
+Iteration: 40 Loss: 0.0103061
+Accuracy (256): 0.947
+Iteration: 0 Loss: 0.0084883
+Iteration: 10 Loss: 0.004981
+Iteration: 20 Loss: 0.00825218
+Iteration: 30 Loss: 0.00573812
+Iteration: 40 Loss: 0.00598819
+Accuracy (257): 0.949
+Iteration: 0 Loss: 0.00557716
+Iteration: 10 Loss: 0.00375156
+Iteration: 20 Loss: 0.00126054
+Iteration: 30 Loss: 0.0127344
+Iteration: 40 Loss: 0.00259836
+Accuracy (258): 0.942
+Iteration: 0 Loss: 0.00351455
+Iteration: 10 Loss: 0.00507793
+Iteration: 20 Loss: 0.00514929
+Iteration: 30 Loss: 0.00271426
+Iteration: 40 Loss: 0.00633685
+Accuracy (259): 0.95
+Iteration: 0 Loss: 0.00291126
+Iteration: 10 Loss: 0.00924592
+Iteration: 20 Loss: 0.00492893
+Iteration: 30 Loss: 0.0035223
+Iteration: 40 Loss: 0.00276572
+Accuracy (260): 0.946
+Iteration: 0 Loss: 0.00206884
+Iteration: 10 Loss: 0.00627687
+Iteration: 20 Loss: 0.00602387
+Iteration: 30 Loss: 0.0052742
+Iteration: 40 Loss: 0.00260116
+Accuracy (261): 0.946
+Iteration: 0 Loss: 0.00404169
+Iteration: 10 Loss: 0.00860439
+Iteration: 20 Loss: 0.00228811
+Iteration: 30 Loss: 0.00117879
+Iteration: 40 Loss: 0.00307111
+Accuracy (262): 0.942
+Iteration: 0 Loss: 0.0135313
+Iteration: 10 Loss: 0.00218004
+Iteration: 20 Loss: 0.0114682
+Iteration: 30 Loss: 0.00537118
+Iteration: 40 Loss: 0.000951096
+Accuracy (263): 0.951
+Iteration: 0 Loss: 0.00417856
+Iteration: 10 Loss: 0.00207866
+Iteration: 20 Loss: 0.00177948
+Iteration: 30 Loss: 0.00195144
+Iteration: 40 Loss: 0.0023499
+Accuracy (264): 0.948
+Iteration: 0 Loss: 0.00251863
+Iteration: 10 Loss: 0.00134705
+Iteration: 20 Loss: 0.00170988
+Iteration: 30 Loss: 0.0028051
+Iteration: 40 Loss: 0.00387482
+Accuracy (265): 0.954
+Iteration: 0 Loss: 0.0024657
+Iteration: 10 Loss: 0.0118904
+Iteration: 20 Loss: 0.0085437
+Iteration: 30 Loss: 0.018259
+Iteration: 40 Loss: 0.00244695
+Accuracy (266): 0.945
+Iteration: 0 Loss: 0.00539807
+Iteration: 10 Loss: 0.00201926
+Iteration: 20 Loss: 0.0244514
+Iteration: 30 Loss: 0.00163904
+Iteration: 40 Loss: 0.00122106
+Accuracy (267): 0.945
+Iteration: 0 Loss: 0.00350187
+Iteration: 10 Loss: 0.00325755
+Iteration: 20 Loss: 0.00157738
+Iteration: 30 Loss: 0.00108985
+Iteration: 40 Loss: 0.0021034
+Accuracy (268): 0.944
+Iteration: 0 Loss: 0.0039866
+Iteration: 10 Loss: 0.00502077
+Iteration: 20 Loss: 0.00156736
+Iteration: 30 Loss: 0.00435719
+Iteration: 40 Loss: 0.00192552
+Accuracy (269): 0.946
+Iteration: 0 Loss: 0.00494206
+Iteration: 10 Loss: 0.0119764
+Iteration: 20 Loss: 0.00243824
+Iteration: 30 Loss: 0.000987438
+Iteration: 40 Loss: 0.000901108
+Accuracy (270): 0.952
+Iteration: 0 Loss: 0.00444767
+Iteration: 10 Loss: 0.00564456
+Iteration: 20 Loss: 0.005799
+Iteration: 30 Loss: 0.00899601
+Iteration: 40 Loss: 0.00411478
+Accuracy (271): 0.957
+Iteration: 0 Loss: 0.00692519
+Iteration: 10 Loss: 0.00388094
+Iteration: 20 Loss: 0.00100276
+Iteration: 30 Loss: 0.000789535
+Iteration: 40 Loss: 0.00129762
+Accuracy (272): 0.946
+Iteration: 0 Loss: 0.00259899
+Iteration: 10 Loss: 0.010452
+Iteration: 20 Loss: 0.00142954
+Iteration: 30 Loss: 0.0190959
+Iteration: 40 Loss: 0.00396347
+Accuracy (273): 0.951
+Iteration: 0 Loss: 0.0102529
+Iteration: 10 Loss: 0.015896
+Iteration: 20 Loss: 0.00349629
+Iteration: 30 Loss: 0.00400335
+Iteration: 40 Loss: 0.00271731
+Accuracy (274): 0.947
+Iteration: 0 Loss: 0.00472733
+Iteration: 10 Loss: 0.0115645
+Iteration: 20 Loss: 0.00270381
+Iteration: 30 Loss: 0.00417968
+Iteration: 40 Loss: 0.00360624
+Accuracy (275): 0.948
+Iteration: 0 Loss: 0.0137702
+Iteration: 10 Loss: 0.00430237
+Iteration: 20 Loss: 0.00299761
+Iteration: 30 Loss: 0.00489559
+Iteration: 40 Loss: 0.00326605
+Accuracy (276): 0.95
+Iteration: 0 Loss: 0.0157975
+Iteration: 10 Loss: 0.00269598
+Iteration: 20 Loss: 0.00274677
+Iteration: 30 Loss: 0.0022146
+Iteration: 40 Loss: 0.0032453
+Accuracy (277): 0.94
+Iteration: 0 Loss: 0.0123663
+Iteration: 10 Loss: 0.00403439
+Iteration: 20 Loss: 0.00242677
+Iteration: 30 Loss: 0.00183415
+Iteration: 40 Loss: 0.00215444
+Accuracy (278): 0.933
+Iteration: 0 Loss: 0.0102806
+Iteration: 10 Loss: 0.0163096
+Iteration: 20 Loss: 0.0130857
+Iteration: 30 Loss: 0.0319552
+Iteration: 40 Loss: 0.0011641
+Accuracy (279): 0.949
+Iteration: 0 Loss: 0.00771266
+Iteration: 10 Loss: 0.00709894
+Iteration: 20 Loss: 0.00610492
+Iteration: 30 Loss: 0.00198158
+Iteration: 40 Loss: 0.00241328
+Accuracy (280): 0.955
+Iteration: 0 Loss: 0.00205111
+Iteration: 10 Loss: 0.00240282
+Iteration: 20 Loss: 0.00870605
+Iteration: 30 Loss: 0.00167489
+Iteration: 40 Loss: 0.00214816
+Accuracy (281): 0.955
+Iteration: 0 Loss: 0.0023785
+Iteration: 10 Loss: 0.00723972
+Iteration: 20 Loss: 0.00486856
+Iteration: 30 Loss: 0.00149149
+Iteration: 40 Loss: 0.000886531
+Accuracy (282): 0.946
+Iteration: 0 Loss: 0.00758112
+Iteration: 10 Loss: 0.00186231
+Iteration: 20 Loss: 0.00480893
+Iteration: 30 Loss: 0.0013737
+Iteration: 40 Loss: 0.00327342
+Accuracy (283): 0.953
+Iteration: 0 Loss: 0.00229087
+Iteration: 10 Loss: 0.00297375
+Iteration: 20 Loss: 0.00113845
+Iteration: 30 Loss: 0.00317468
+Iteration: 40 Loss: 0.00278837
+Accuracy (284): 0.948
+Iteration: 0 Loss: 0.00689168
+Iteration: 10 Loss: 0.00278518
+Iteration: 20 Loss: 0.00236902
+Iteration: 30 Loss: 0.00101091
+Iteration: 40 Loss: 0.00183663
+Accuracy (285): 0.947
+Iteration: 0 Loss: 0.00365765
+Iteration: 10 Loss: 0.00641586
+Iteration: 20 Loss: 0.00174567
+Iteration: 30 Loss: 0.00642192
+Iteration: 40 Loss: 0.00291657
+Accuracy (286): 0.947
+Iteration: 0 Loss: 0.00410165
+Iteration: 10 Loss: 0.00226664
+Iteration: 20 Loss: 0.00134204
+Iteration: 30 Loss: 0.00424009
+Iteration: 40 Loss: 0.00103216
+Accuracy (287): 0.945
+Iteration: 0 Loss: 0.00241989
+Iteration: 10 Loss: 0.00220747
+Iteration: 20 Loss: 0.00418122
+Iteration: 30 Loss: 0.00760834
+Iteration: 40 Loss: 0.00278204
+Accuracy (288): 0.951
+Iteration: 0 Loss: 0.00439862
+Iteration: 10 Loss: 0.00127527
+Iteration: 20 Loss: 0.00733376
+Iteration: 30 Loss: 0.00208318
+Iteration: 40 Loss: 0.00101092
+Accuracy (289): 0.952
+Iteration: 0 Loss: 0.00230701
+Iteration: 10 Loss: 0.00326422
+Iteration: 20 Loss: 0.00132052
+Iteration: 30 Loss: 0.00389677
+Iteration: 40 Loss: 0.00083296
+Accuracy (290): 0.943
+Iteration: 0 Loss: 0.0200748
+Iteration: 10 Loss: 0.0032908
+Iteration: 20 Loss: 0.00364265
+Iteration: 30 Loss: 0.00543564
+Iteration: 40 Loss: 0.00720153
+Accuracy (291): 0.944
+Iteration: 0 Loss: 0.00997932
+Iteration: 10 Loss: 0.00921651
+Iteration: 20 Loss: 0.00521968
+Iteration: 30 Loss: 0.00918952
+Iteration: 40 Loss: 0.023431
+Accuracy (292): 0.955
+Iteration: 0 Loss: 0.00861774
+Iteration: 10 Loss: 0.0042131
+Iteration: 20 Loss: 0.00536576
+Iteration: 30 Loss: 0.00949141
+Iteration: 40 Loss: 0.0179328
+Accuracy (293): 0.943
+Iteration: 0 Loss: 0.0126746
+Iteration: 10 Loss: 0.00595245
+Iteration: 20 Loss: 0.00455811
+Iteration: 30 Loss: 0.00420376
+Iteration: 40 Loss: 0.00247315
+Accuracy (294): 0.95
+Iteration: 0 Loss: 0.0024242
+Iteration: 10 Loss: 0.0113114
+Iteration: 20 Loss: 0.00157945
+Iteration: 30 Loss: 0.0271306
+Iteration: 40 Loss: 0.00226512
+Accuracy (295): 0.948
+Iteration: 0 Loss: 0.00188717
+Iteration: 10 Loss: 0.00481361
+Iteration: 20 Loss: 0.00363147
+Iteration: 30 Loss: 0.00796207
+Iteration: 40 Loss: 0.00197307
+Accuracy (296): 0.946
+Iteration: 0 Loss: 0.0155595
+Iteration: 10 Loss: 0.00259181
+Iteration: 20 Loss: 0.0015693
+Iteration: 30 Loss: 0.00188196
+Iteration: 40 Loss: 0.00139989
+Accuracy (297): 0.948
+Iteration: 0 Loss: 0.00556241
+Iteration: 10 Loss: 0.00277625
+Iteration: 20 Loss: 0.00359299
+Iteration: 30 Loss: 0.00209366
+Iteration: 40 Loss: 0.0043483
+Accuracy (298): 0.952
+Iteration: 0 Loss: 0.00387145
+Iteration: 10 Loss: 0.00549391
+Iteration: 20 Loss: 0.0120854
+Iteration: 30 Loss: 0.00370919
+Iteration: 40 Loss: 0.00162665
+Accuracy (299): 0.946
+Iteration: 0 Loss: 0.00256927
+Iteration: 10 Loss: 0.00367739
+Iteration: 20 Loss: 0.00357569
+Iteration: 30 Loss: 0.0039291
+Iteration: 40 Loss: 0.00253384
+Accuracy (300): 0.956
+Iteration: 0 Loss: 0.00426334
+Iteration: 10 Loss: 0.00279134
+Iteration: 20 Loss: 0.00278151
+Iteration: 30 Loss: 0.00229924
+Iteration: 40 Loss: 0.00116289
+Accuracy (301): 0.95
+Iteration: 0 Loss: 0.0100487
+Iteration: 10 Loss: 0.00524673
+Iteration: 20 Loss: 0.00284611
+Iteration: 30 Loss: 0.00392757
+Iteration: 40 Loss: 0.00187754
+Accuracy (302): 0.951
+Iteration: 0 Loss: 0.002375
+Iteration: 10 Loss: 0.0037851
+Iteration: 20 Loss: 0.00412308
+Iteration: 30 Loss: 0.000715264
+Iteration: 40 Loss: 0.0118924
+Accuracy (303): 0.952
+Iteration: 0 Loss: 0.00542431
+Iteration: 10 Loss: 0.00634977
+Iteration: 20 Loss: 0.0163656
+Iteration: 30 Loss: 0.0012133
+Iteration: 40 Loss: 0.00281372
+Accuracy (304): 0.947
+Iteration: 0 Loss: 0.00340431
+Iteration: 10 Loss: 0.00690706
+Iteration: 20 Loss: 0.00149169
+Iteration: 30 Loss: 0.00246912
+Iteration: 40 Loss: 0.00245664
+Accuracy (305): 0.948
+Iteration: 0 Loss: 0.0039535
+Iteration: 10 Loss: 0.00635123
+Iteration: 20 Loss: 0.00191443
+Iteration: 30 Loss: 0.00190026
+Iteration: 40 Loss: 0.00126608
+Accuracy (306): 0.951
+Iteration: 0 Loss: 0.00166565
+Iteration: 10 Loss: 0.00227335
+Iteration: 20 Loss: 0.00537037
+Iteration: 30 Loss: 0.00509054
+Iteration: 40 Loss: 0.00126938
+Accuracy (307): 0.955
+Iteration: 0 Loss: 0.00364948
+Iteration: 10 Loss: 0.00645229
+Iteration: 20 Loss: 0.00241308
+Iteration: 30 Loss: 0.00124362
+Iteration: 40 Loss: 0.00385119
+Accuracy (308): 0.948
+Iteration: 0 Loss: 0.00467582
+Iteration: 10 Loss: 0.00306778
+Iteration: 20 Loss: 0.00280156
+Iteration: 30 Loss: 0.00732911
+Iteration: 40 Loss: 0.00121921
+Accuracy (309): 0.947
+Iteration: 0 Loss: 0.00507495
+Iteration: 10 Loss: 0.0040727
+Iteration: 20 Loss: 0.00951061
+Iteration: 30 Loss: 0.00358322
+Iteration: 40 Loss: 0.0030231
+Accuracy (310): 0.951
+Iteration: 0 Loss: 0.00472602
+Iteration: 10 Loss: 0.00208492
+Iteration: 20 Loss: 0.00428326
+Iteration: 30 Loss: 0.00355515
+Iteration: 40 Loss: 0.00375431
+Accuracy (311): 0.95
+Iteration: 0 Loss: 0.00385819
+Iteration: 10 Loss: 0.00989421
+Iteration: 20 Loss: 0.00516264
+Iteration: 30 Loss: 0.00446799
+Iteration: 40 Loss: 0.00347705
+Accuracy (312): 0.953
+Iteration: 0 Loss: 0.00456999
+Iteration: 10 Loss: 0.00515816
+Iteration: 20 Loss: 0.00258624
+Iteration: 30 Loss: 0.00776736
+Iteration: 40 Loss: 0.00121962
+Accuracy (313): 0.946
+Iteration: 0 Loss: 0.00347565
+Iteration: 10 Loss: 0.00142456
+Iteration: 20 Loss: 0.00188706
+Iteration: 30 Loss: 0.00240513
+Iteration: 40 Loss: 0.0034607
+Accuracy (314): 0.947
+Iteration: 0 Loss: 0.0052993
+Iteration: 10 Loss: 0.00724378
+Iteration: 20 Loss: 0.00696102
+Iteration: 30 Loss: 0.00509071
+Iteration: 40 Loss: 0.00111469
+Accuracy (315): 0.952
+Iteration: 0 Loss: 0.0129999
+Iteration: 10 Loss: 0.00574238
+Iteration: 20 Loss: 0.0075526
+Iteration: 30 Loss: 0.0019855
+Iteration: 40 Loss: 0.00716551
+Accuracy (316): 0.949
+Iteration: 0 Loss: 0.00707021
+Iteration: 10 Loss: 0.00539361
+Iteration: 20 Loss: 0.00158216
+Iteration: 30 Loss: 0.00084416
+Iteration: 40 Loss: 0.00222718
+Accuracy (317): 0.952
+Iteration: 0 Loss: 0.00318402
+Iteration: 10 Loss: 0.0015865
+Iteration: 20 Loss: 0.00440291
+Iteration: 30 Loss: 0.00656278
+Iteration: 40 Loss: 0.00445967
+Accuracy (318): 0.952
+Iteration: 0 Loss: 0.00962368
+Iteration: 10 Loss: 0.00875409
+Iteration: 20 Loss: 0.00835481
+Iteration: 30 Loss: 0.00182152
+Iteration: 40 Loss: 0.00154982
+Accuracy (319): 0.956
+Iteration: 0 Loss: 0.00316891
+Iteration: 10 Loss: 0.00346614
+Iteration: 20 Loss: 0.00448274
+Iteration: 30 Loss: 0.00358534
+Iteration: 40 Loss: 0.00403772
+Accuracy (320): 0.948
+Iteration: 0 Loss: 0.00101507
+Iteration: 10 Loss: 0.0056417
+Iteration: 20 Loss: 0.00257599
+Iteration: 30 Loss: 0.00150196
+Iteration: 40 Loss: 0.00125355
+Accuracy (321): 0.949
+Iteration: 0 Loss: 0.00689515
+Iteration: 10 Loss: 0.00263226
+Iteration: 20 Loss: 0.00366547
+Iteration: 30 Loss: 0.00147109
+Iteration: 40 Loss: 0.00780866
+Accuracy (322): 0.95
+Iteration: 0 Loss: 0.00377383
+Iteration: 10 Loss: 0.00497938
+Iteration: 20 Loss: 0.0257419
+Iteration: 30 Loss: 0.00311332
+Iteration: 40 Loss: 0.00167217
+Accuracy (323): 0.951
+Iteration: 0 Loss: 0.00402158
+Iteration: 10 Loss: 0.00321543
+Iteration: 20 Loss: 0.0136317
+Iteration: 30 Loss: 0.0130551
+Iteration: 40 Loss: 0.00444603
+Accuracy (324): 0.945
+Iteration: 0 Loss: 0.0190456
+Iteration: 10 Loss: 0.00507467
+Iteration: 20 Loss: 0.00152444
+Iteration: 30 Loss: 0.00594904
+Iteration: 40 Loss: 0.00766882
+Accuracy (325): 0.94
+Iteration: 0 Loss: 0.0167753
+Iteration: 10 Loss: 0.00227329
+Iteration: 20 Loss: 0.00135366
+Iteration: 30 Loss: 0.0289364
+Iteration: 40 Loss: 0.00238075
+Accuracy (326): 0.943
+Iteration: 0 Loss: 0.0083129
+Iteration: 10 Loss: 0.0023913
+Iteration: 20 Loss: 0.0109454
+Iteration: 30 Loss: 0.00698699
+Iteration: 40 Loss: 0.00263027
+Accuracy (327): 0.952
+Iteration: 0 Loss: 0.00427696
+Iteration: 10 Loss: 0.00157851
+Iteration: 20 Loss: 0.00798699
+Iteration: 30 Loss: 0.00907108
+Iteration: 40 Loss: 0.00223848
+Accuracy (328): 0.95
+Iteration: 0 Loss: 0.00320548
+Iteration: 10 Loss: 0.00110581
+Iteration: 20 Loss: 0.00356996
+Iteration: 30 Loss: 0.00224897
+Iteration: 40 Loss: 0.00245998
+Accuracy (329): 0.951
+Iteration: 0 Loss: 0.0178299
+Iteration: 10 Loss: 0.00398815
+Iteration: 20 Loss: 0.00260519
+Iteration: 30 Loss: 0.00222305
+Iteration: 40 Loss: 0.0157023
+Accuracy (330): 0.944
+Iteration: 0 Loss: 0.00373563
+Iteration: 10 Loss: 0.00310994
+Iteration: 20 Loss: 0.00435425
+Iteration: 30 Loss: 0.00298966
+Iteration: 40 Loss: 0.00790106
+Accuracy (331): 0.951
+Iteration: 0 Loss: 0.00579704
+Iteration: 10 Loss: 0.00324822
+Iteration: 20 Loss: 0.00658913
+Iteration: 30 Loss: 0.0144918
+Iteration: 40 Loss: 0.00222726
+Accuracy (332): 0.952
+Iteration: 0 Loss: 0.00379009
+Iteration: 10 Loss: 0.00214998
+Iteration: 20 Loss: 0.00627113
+Iteration: 30 Loss: 0.00712164
+Iteration: 40 Loss: 0.001017
+Accuracy (333): 0.952
+Iteration: 0 Loss: 0.00568003
+Iteration: 10 Loss: 0.00230956
+Iteration: 20 Loss: 0.00388326
+Iteration: 30 Loss: 0.00251927
+Iteration: 40 Loss: 0.00203741
+Accuracy (334): 0.953
+Iteration: 0 Loss: 0.00239799
+Iteration: 10 Loss: 0.00357293
+Iteration: 20 Loss: 0.00313822
+Iteration: 30 Loss: 0.0119079
+Iteration: 40 Loss: 0.00308383
+Accuracy (335): 0.95
+Iteration: 0 Loss: 0.00287661
+Iteration: 10 Loss: 0.00269413
+Iteration: 20 Loss: 0.000856438
+Iteration: 30 Loss: 0.00186213
+Iteration: 40 Loss: 0.00442108
+Accuracy (336): 0.948
+Iteration: 0 Loss: 0.00184587
+Iteration: 10 Loss: 0.0042349
+Iteration: 20 Loss: 0.00178161
+Iteration: 30 Loss: 0.00313718
+Iteration: 40 Loss: 0.00126556
+Accuracy (337): 0.949
+Iteration: 0 Loss: 0.018988
+Iteration: 10 Loss: 0.00293835
+Iteration: 20 Loss: 0.00152283
+Iteration: 30 Loss: 0.00699608
+Iteration: 40 Loss: 0.00123932
+Accuracy (338): 0.947
+Iteration: 0 Loss: 0.00534377
+Iteration: 10 Loss: 0.00436909
+Iteration: 20 Loss: 0.00124586
+Iteration: 30 Loss: 0.0065004
+Iteration: 40 Loss: 0.00221897
+Accuracy (339): 0.944
+Iteration: 0 Loss: 0.00113251
+Iteration: 10 Loss: 0.00291166
+Iteration: 20 Loss: 0.000718478
+Iteration: 30 Loss: 0.0174467
+Iteration: 40 Loss: 0.00780953
+Accuracy (340): 0.955
+Iteration: 0 Loss: 0.00215797
+Iteration: 10 Loss: 0.00209284
+Iteration: 20 Loss: 0.00229709
+Iteration: 30 Loss: 0.00111639
+Iteration: 40 Loss: 0.00266091
+Accuracy (341): 0.948
+Iteration: 0 Loss: 0.00600275
+Iteration: 10 Loss: 0.00173843
+Iteration: 20 Loss: 0.00168652
+Iteration: 30 Loss: 0.00622333
+Iteration: 40 Loss: 0.00377265
+Accuracy (342): 0.95
+Iteration: 0 Loss: 0.00171277
+Iteration: 10 Loss: 0.0053671
+Iteration: 20 Loss: 0.00279472
+Iteration: 30 Loss: 0.00327431
+Iteration: 40 Loss: 0.00251471
+Accuracy (343): 0.948
+Iteration: 0 Loss: 0.0171872
+Iteration: 10 Loss: 0.0060603
+Iteration: 20 Loss: 0.00145822
+Iteration: 30 Loss: 0.00196019
+Iteration: 40 Loss: 0.00435998
+Accuracy (344): 0.954
+Iteration: 0 Loss: 0.00129909
+Iteration: 10 Loss: 0.00132011
+Iteration: 20 Loss: 0.000866891
+Iteration: 30 Loss: 0.00740406
+Iteration: 40 Loss: 0.00293794
+Accuracy (345): 0.943
+Iteration: 0 Loss: 0.0045456
+Iteration: 10 Loss: 0.00289737
+Iteration: 20 Loss: 0.00903039
+Iteration: 30 Loss: 0.0034124
+Iteration: 40 Loss: 0.00172386
+Accuracy (346): 0.949
+Iteration: 0 Loss: 0.00832625
+Iteration: 10 Loss: 0.00322708
+Iteration: 20 Loss: 0.0025636
+Iteration: 30 Loss: 0.00309743
+Iteration: 40 Loss: 0.00492903
+Accuracy (347): 0.945
+Iteration: 0 Loss: 0.00379712
+Iteration: 10 Loss: 0.00175326
+Iteration: 20 Loss: 0.0134828
+Iteration: 30 Loss: 0.00327574
+Iteration: 40 Loss: 0.0216567
+Accuracy (348): 0.942
+Iteration: 0 Loss: 0.0110714
+Iteration: 10 Loss: 0.00197305
+Iteration: 20 Loss: 0.00404652
+Iteration: 30 Loss: 0.00242126
+Iteration: 40 Loss: 0.0103674
+Accuracy (349): 0.951
+Iteration: 0 Loss: 0.00327125
+Iteration: 10 Loss: 0.00375339
+Iteration: 20 Loss: 0.0118438
+Iteration: 30 Loss: 0.0216749
+Iteration: 40 Loss: 0.00471663
+Accuracy (350): 0.949
+Iteration: 0 Loss: 0.00605542
+Iteration: 10 Loss: 0.00153785
+Iteration: 20 Loss: 0.00172052
+Iteration: 30 Loss: 0.00109816
+Iteration: 40 Loss: 0.00433914
+Accuracy (351): 0.949
+Iteration: 0 Loss: 0.0014513
+Iteration: 10 Loss: 0.000739736
+Iteration: 20 Loss: 0.00494691
+Iteration: 30 Loss: 0.0279709
+Iteration: 40 Loss: 0.00329438
+Accuracy (352): 0.941
+Iteration: 0 Loss: 0.00621924
+Iteration: 10 Loss: 0.0040043
+Iteration: 20 Loss: 0.00244168
+Iteration: 30 Loss: 0.00105854
+Iteration: 40 Loss: 0.00350692
+Accuracy (353): 0.948
+Iteration: 0 Loss: 0.00223898
+Iteration: 10 Loss: 0.00273951
+Iteration: 20 Loss: 0.00924399
+Iteration: 30 Loss: 0.00759517
+Iteration: 40 Loss: 0.0177957
+Accuracy (354): 0.945
+Iteration: 0 Loss: 0.00482209
+Iteration: 10 Loss: 0.00356679
+Iteration: 20 Loss: 0.0276402
+Iteration: 30 Loss: 0.00639498
+Iteration: 40 Loss: 0.00466109
+Accuracy (355): 0.944
+Iteration: 0 Loss: 0.00691158
+Iteration: 10 Loss: 0.00268767
+Iteration: 20 Loss: 0.00264284
+Iteration: 30 Loss: 0.00519152
+Iteration: 40 Loss: 0.00164432
+Accuracy (356): 0.948
+Iteration: 0 Loss: 0.00152004
+Iteration: 10 Loss: 0.00212409
+Iteration: 20 Loss: 0.0164483
+Iteration: 30 Loss: 0.018951
+Iteration: 40 Loss: 0.00186797
+Accuracy (357): 0.949
+Iteration: 0 Loss: 0.0015814
+Iteration: 10 Loss: 0.00174302
+Iteration: 20 Loss: 0.0086163
+Iteration: 30 Loss: 0.00393126
+Iteration: 40 Loss: 0.00336109
+Accuracy (358): 0.944
+Iteration: 0 Loss: 0.00167711
+Iteration: 10 Loss: 0.00624317
+Iteration: 20 Loss: 0.0069931
+Iteration: 30 Loss: 0.00600142
+Iteration: 40 Loss: 0.00554615
+Accuracy (359): 0.959
+Iteration: 0 Loss: 0.00349794
+Iteration: 10 Loss: 0.00293105
+Iteration: 20 Loss: 0.00791482
+Iteration: 30 Loss: 0.00196737
+Iteration: 40 Loss: 0.0032734
+Accuracy (360): 0.949
+Iteration: 0 Loss: 0.00613513
+Iteration: 10 Loss: 0.00245857
+Iteration: 20 Loss: 0.000848063
+Iteration: 30 Loss: 0.00224071
+Iteration: 40 Loss: 0.00274571
+Accuracy (361): 0.952
+Iteration: 0 Loss: 0.00307533
+Iteration: 10 Loss: 0.00370914
+Iteration: 20 Loss: 0.00148811
+Iteration: 30 Loss: 0.00746332
+Iteration: 40 Loss: 0.00198399
+Accuracy (362): 0.948
+Iteration: 0 Loss: 0.00796111
+Iteration: 10 Loss: 0.000726606
+Iteration: 20 Loss: 0.00209227
+Iteration: 30 Loss: 0.00157151
+Iteration: 40 Loss: 0.000545228
+Accuracy (363): 0.952
+Iteration: 0 Loss: 0.00201895
+Iteration: 10 Loss: 0.00209895
+Iteration: 20 Loss: 0.000709162
+Iteration: 30 Loss: 0.0100152
+Iteration: 40 Loss: 0.00352649
+Accuracy (364): 0.953
+Iteration: 0 Loss: 0.0064677
+Iteration: 10 Loss: 0.00585709
+Iteration: 20 Loss: 0.00273331
+Iteration: 30 Loss: 0.000792604
+Iteration: 40 Loss: 0.000729598
+Accuracy (365): 0.952
+Iteration: 0 Loss: 0.00178409
+Iteration: 10 Loss: 0.00253697
+Iteration: 20 Loss: 0.00375829
+Iteration: 30 Loss: 0.00078717
+Iteration: 40 Loss: 0.0038527
+Accuracy (366): 0.954
+Iteration: 0 Loss: 0.00127457
+Iteration: 10 Loss: 0.00138265
+Iteration: 20 Loss: 0.00472955
+Iteration: 30 Loss: 0.00348612
+Iteration: 40 Loss: 0.00122064
+Accuracy (367): 0.951
+Iteration: 0 Loss: 0.00242897
+Iteration: 10 Loss: 0.00181864
+Iteration: 20 Loss: 0.00477764
+Iteration: 30 Loss: 0.00297711
+Iteration: 40 Loss: 0.00158221
+Accuracy (368): 0.949
+Iteration: 0 Loss: 0.0023908
+Iteration: 10 Loss: 0.00730315
+Iteration: 20 Loss: 0.00117645
+Iteration: 30 Loss: 0.00390066
+Iteration: 40 Loss: 0.00282181
+Accuracy (369): 0.955
+Iteration: 0 Loss: 0.00292267
+Iteration: 10 Loss: 0.00349489
+Iteration: 20 Loss: 0.00285972
+Iteration: 30 Loss: 0.0183152
+Iteration: 40 Loss: 0.00167851
+Accuracy (370): 0.951
+Iteration: 0 Loss: 0.00329158
+Iteration: 10 Loss: 0.00320185
+Iteration: 20 Loss: 0.00762079
+Iteration: 30 Loss: 0.0111936
+Iteration: 40 Loss: 0.00612259
+Accuracy (371): 0.95
+Iteration: 0 Loss: 0.00255
+Iteration: 10 Loss: 0.0085713
+Iteration: 20 Loss: 0.00245853
+Iteration: 30 Loss: 0.0149439
+Iteration: 40 Loss: 0.00831408
+Accuracy (372): 0.948
+Iteration: 0 Loss: 0.00235513
+Iteration: 10 Loss: 0.00307426
+Iteration: 20 Loss: 0.0020392
+Iteration: 30 Loss: 0.0041301
+Iteration: 40 Loss: 0.00292829
+Accuracy (373): 0.953
+Iteration: 0 Loss: 0.00399135
+Iteration: 10 Loss: 0.00286608
+Iteration: 20 Loss: 0.00151827
+Iteration: 30 Loss: 0.0247044
+Iteration: 40 Loss: 0.00319172
+Accuracy (374): 0.956
+Iteration: 0 Loss: 0.00297217
+Iteration: 10 Loss: 0.00399158
+Iteration: 20 Loss: 0.00196139
+Iteration: 30 Loss: 0.00190859
+Iteration: 40 Loss: 0.00138697
+Accuracy (375): 0.95
+Iteration: 0 Loss: 0.0041611
+Iteration: 10 Loss: 0.00284885
+Iteration: 20 Loss: 0.00242095
+Iteration: 30 Loss: 0.00625111
+Iteration: 40 Loss: 0.00192069
+Accuracy (376): 0.95
+Iteration: 0 Loss: 0.00104859
+Iteration: 10 Loss: 0.00232416
+Iteration: 20 Loss: 0.00272635
+Iteration: 30 Loss: 0.00271143
+Iteration: 40 Loss: 0.00086843
+Accuracy (377): 0.949
+Iteration: 0 Loss: 0.00175849
+Iteration: 10 Loss: 0.0101117
+Iteration: 20 Loss: 0.00834412
+Iteration: 30 Loss: 0.012109
+Iteration: 40 Loss: 0.00212914
+Accuracy (378): 0.944
+Iteration: 0 Loss: 0.00478492
+Iteration: 10 Loss: 0.00442931
+Iteration: 20 Loss: 0.00218532
+Iteration: 30 Loss: 0.00344032
+Iteration: 40 Loss: 0.00195312
+Accuracy (379): 0.943
+Iteration: 0 Loss: 0.00524533
+Iteration: 10 Loss: 0.00467996
+Iteration: 20 Loss: 0.00518607
+Iteration: 30 Loss: 0.00774441
+Iteration: 40 Loss: 0.00242599
+Accuracy (380): 0.946
+Iteration: 0 Loss: 0.00692577
+Iteration: 10 Loss: 0.00781356
+Iteration: 20 Loss: 0.00362023
+Iteration: 30 Loss: 0.0139965
+Iteration: 40 Loss: 0.00149609
+Accuracy (381): 0.95
+Iteration: 0 Loss: 0.0026762
+Iteration: 10 Loss: 0.00308371
+Iteration: 20 Loss: 0.00507255
+Iteration: 30 Loss: 0.00166603
+Iteration: 40 Loss: 0.00210799
+Accuracy (382): 0.946
+Iteration: 0 Loss: 0.00292507
+Iteration: 10 Loss: 0.0063711
+Iteration: 20 Loss: 0.00216514
+Iteration: 30 Loss: 0.00381213
+Iteration: 40 Loss: 0.00236375
+Accuracy (383): 0.952
+Iteration: 0 Loss: 0.0095789
+Iteration: 10 Loss: 0.00150754
+Iteration: 20 Loss: 0.00278174
+Iteration: 30 Loss: 0.00296367
+Iteration: 40 Loss: 0.00336823
+Accuracy (384): 0.957
+Iteration: 0 Loss: 0.0012157
+Iteration: 10 Loss: 0.00250092
+Iteration: 20 Loss: 0.00128211
+Iteration: 30 Loss: 0.00212154
+Iteration: 40 Loss: 0.00159771
+Accuracy (385): 0.954
+Iteration: 0 Loss: 0.00198686
+Iteration: 10 Loss: 0.00304651
+Iteration: 20 Loss: 0.00360499
+Iteration: 30 Loss: 0.00374655
+Iteration: 40 Loss: 0.000906463
+Accuracy (386): 0.953
+Iteration: 0 Loss: 0.00782797
+Iteration: 10 Loss: 0.00314679
+Iteration: 20 Loss: 0.00263238
+Iteration: 30 Loss: 0.00129582
+Iteration: 40 Loss: 0.00134567
+Accuracy (387): 0.954
+Iteration: 0 Loss: 0.00345312
+Iteration: 10 Loss: 0.00269474
+Iteration: 20 Loss: 0.00131341
+Iteration: 30 Loss: 0.000924291
+Iteration: 40 Loss: 0.00517222
+Accuracy (388): 0.95
+Iteration: 0 Loss: 0.00242668
+Iteration: 10 Loss: 0.00700882
+Iteration: 20 Loss: 0.00783156
+Iteration: 30 Loss: 0.00488962
+Iteration: 40 Loss: 0.00469238
+Accuracy (389): 0.944
+Iteration: 0 Loss: 0.00324431
+Iteration: 10 Loss: 0.00894846
+Iteration: 20 Loss: 0.00410947
+Iteration: 30 Loss: 0.00445932
+Iteration: 40 Loss: 0.00221665
+Accuracy (390): 0.947
+Iteration: 0 Loss: 0.00172372
+Iteration: 10 Loss: 0.00166806
+Iteration: 20 Loss: 0.00352646
+Iteration: 30 Loss: 0.00273971
+Iteration: 40 Loss: 0.000648135
+Accuracy (391): 0.95
+Iteration: 0 Loss: 0.00194589
+Iteration: 10 Loss: 0.00559899
+Iteration: 20 Loss: 0.00693695
+Iteration: 30 Loss: 0.0159387
+Iteration: 40 Loss: 0.00126312
+Accuracy (392): 0.956
+Iteration: 0 Loss: 0.000940299
+Iteration: 10 Loss: 0.00192665
+Iteration: 20 Loss: 0.00333635
+Iteration: 30 Loss: 0.00298303
+Iteration: 40 Loss: 0.00120147
+Accuracy (393): 0.952
+Iteration: 0 Loss: 0.00397263
+Iteration: 10 Loss: 0.00265214
+Iteration: 20 Loss: 0.0129097
+Iteration: 30 Loss: 0.00144578
+Iteration: 40 Loss: 0.0011199
+Accuracy (394): 0.951
+Iteration: 0 Loss: 0.000805348
+Iteration: 10 Loss: 0.00139245
+Iteration: 20 Loss: 0.000910552
+Iteration: 30 Loss: 0.000634023
+Iteration: 40 Loss: 0.00149663
+Accuracy (395): 0.946
+Iteration: 0 Loss: 0.00514935
+Iteration: 10 Loss: 0.00248804
+Iteration: 20 Loss: 0.00208814
+Iteration: 30 Loss: 0.00112221
+Iteration: 40 Loss: 0.000365218
+Accuracy (396): 0.953
+Iteration: 0 Loss: 0.00196302
+Iteration: 10 Loss: 0.00332456
+Iteration: 20 Loss: 0.00264643
+Iteration: 30 Loss: 0.0010901
+Iteration: 40 Loss: 0.00131862
+Accuracy (397): 0.951
+Iteration: 0 Loss: 0.00159736
+Iteration: 10 Loss: 0.00100446
+Iteration: 20 Loss: 0.00344409
+Iteration: 30 Loss: 0.00160641
+Iteration: 40 Loss: 0.00241526
+Accuracy (398): 0.952
+Iteration: 0 Loss: 0.00494421
+Iteration: 10 Loss: 0.0028077
+Iteration: 20 Loss: 0.00449849
+Iteration: 30 Loss: 0.00449112
+Iteration: 40 Loss: 0.00329676
+Accuracy (399): 0.947
+Iteration: 0 Loss: 0.00833779
+Iteration: 10 Loss: 0.00158916
+Iteration: 20 Loss: 0.00156677
+Iteration: 30 Loss: 0.00206328
+Iteration: 40 Loss: 0.018248
+Accuracy (400): 0.945
+Iteration: 0 Loss: 0.00363336
+Iteration: 10 Loss: 0.00348761
+Iteration: 20 Loss: 0.00315066
+Iteration: 30 Loss: 0.00217535
+Iteration: 40 Loss: 0.00200764
+Accuracy (401): 0.943
+Iteration: 0 Loss: 0.0145885
+Iteration: 10 Loss: 0.00225796
+Iteration: 20 Loss: 0.00193258
+Iteration: 30 Loss: 0.000602489
+Iteration: 40 Loss: 0.000350809
+Accuracy (402): 0.95
+Iteration: 0 Loss: 0.0015739
+Iteration: 10 Loss: 0.00203766
+Iteration: 20 Loss: 0.0079973
+Iteration: 30 Loss: 0.000996864
+Iteration: 40 Loss: 0.00119599
+Accuracy (403): 0.951
+Iteration: 0 Loss: 0.00171501
+Iteration: 10 Loss: 0.00145071
+Iteration: 20 Loss: 0.00143565
+Iteration: 30 Loss: 0.00884091
+Iteration: 40 Loss: 0.00151253
+Accuracy (404): 0.954
+Iteration: 0 Loss: 0.00306952
+Iteration: 10 Loss: 0.00781325
+Iteration: 20 Loss: 0.00252695
+Iteration: 30 Loss: 0.00972421
+Iteration: 40 Loss: 0.0016093
+Accuracy (405): 0.941
+Iteration: 0 Loss: 0.0020544
+Iteration: 10 Loss: 0.00256157
+Iteration: 20 Loss: 0.00284872
+Iteration: 30 Loss: 0.00145704
+Iteration: 40 Loss: 0.00220398
+Accuracy (406): 0.947
+Iteration: 0 Loss: 0.00140779
+Iteration: 10 Loss: 0.00126919
+Iteration: 20 Loss: 0.00367368
+Iteration: 30 Loss: 0.00125425
+Iteration: 40 Loss: 0.00507918
+Accuracy (407): 0.944
+Iteration: 0 Loss: 0.00779508
+Iteration: 10 Loss: 0.00778083
+Iteration: 20 Loss: 0.00104636
+Iteration: 30 Loss: 0.000906672
+Iteration: 40 Loss: 0.00150434
+Accuracy (408): 0.943
+Iteration: 0 Loss: 0.00135927
+Iteration: 10 Loss: 0.00282942
+Iteration: 20 Loss: 0.00494612
+Iteration: 30 Loss: 0.00257336
+Iteration: 40 Loss: 0.00155304
+Accuracy (409): 0.953
+Iteration: 0 Loss: 0.00251403
+Iteration: 10 Loss: 0.000724251
+Iteration: 20 Loss: 0.00247951
+Iteration: 30 Loss: 0.00113864
+Iteration: 40 Loss: 0.00147157
+Accuracy (410): 0.952
+Iteration: 0 Loss: 0.00452035
+Iteration: 10 Loss: 0.0122552
+Iteration: 20 Loss: 0.00663463
+Iteration: 30 Loss: 0.00374076
+Iteration: 40 Loss: 0.000990215
+Accuracy (411): 0.944
+Iteration: 0 Loss: 0.0158279
+Iteration: 10 Loss: 0.00351664
+Iteration: 20 Loss: 0.0201111
+Iteration: 30 Loss: 0.0019365
+Iteration: 40 Loss: 0.00101544
+Accuracy (412): 0.958
+Iteration: 0 Loss: 0.00092942
+Iteration: 10 Loss: 0.0103506
+Iteration: 20 Loss: 0.00100941
+Iteration: 30 Loss: 0.0214789
+Iteration: 40 Loss: 0.00143816
+Accuracy (413): 0.945
+Iteration: 0 Loss: 0.00572182
+Iteration: 10 Loss: 0.00193339
+Iteration: 20 Loss: 0.00583436
+Iteration: 30 Loss: 0.000517362
+Iteration: 40 Loss: 0.00116062
+Accuracy (414): 0.95
+Iteration: 0 Loss: 0.00279868
+Iteration: 10 Loss: 0.0076384
+Iteration: 20 Loss: 0.00255145
+Iteration: 30 Loss: 0.00394866
+Iteration: 40 Loss: 0.00075763
+Accuracy (415): 0.944
+Iteration: 0 Loss: 0.00272772
+Iteration: 10 Loss: 0.00475734
+Iteration: 20 Loss: 0.00283679
+Iteration: 30 Loss: 0.00196994
+Iteration: 40 Loss: 0.000526643
+Accuracy (416): 0.957
+Iteration: 0 Loss: 0.00372206
+Iteration: 10 Loss: 0.00100924
+Iteration: 20 Loss: 0.00520099
+Iteration: 30 Loss: 0.00508348
+Iteration: 40 Loss: 0.00338212
+Accuracy (417): 0.959
+Iteration: 0 Loss: 0.00373265
+Iteration: 10 Loss: 0.00130975
+Iteration: 20 Loss: 0.0282043
+Iteration: 30 Loss: 0.027675
+Iteration: 40 Loss: 0.0013964
+Accuracy (418): 0.956
+Iteration: 0 Loss: 0.0023732
+Iteration: 10 Loss: 0.00460769
+Iteration: 20 Loss: 0.00231522
+Iteration: 30 Loss: 0.00358802
+Iteration: 40 Loss: 0.00196136
+Accuracy (419): 0.951
+Iteration: 0 Loss: 0.00237773
+Iteration: 10 Loss: 0.00330487
+Iteration: 20 Loss: 0.00156795
+Iteration: 30 Loss: 0.00255006
+Iteration: 40 Loss: 0.00055822
+Accuracy (420): 0.95
+Iteration: 0 Loss: 0.00440079
+Iteration: 10 Loss: 0.00415913
+Iteration: 20 Loss: 0.0029343
+Iteration: 30 Loss: 0.00433009
+Iteration: 40 Loss: 0.00132382
+Accuracy (421): 0.952
+Iteration: 0 Loss: 0.00216027
+Iteration: 10 Loss: 0.000815338
+Iteration: 20 Loss: 0.0022266
+Iteration: 30 Loss: 0.0119653
+Iteration: 40 Loss: 0.00214128
+Accuracy (422): 0.949
+Iteration: 0 Loss: 0.00445191
+Iteration: 10 Loss: 0.00255591
+Iteration: 20 Loss: 0.00269953
+Iteration: 30 Loss: 0.00373922
+Iteration: 40 Loss: 0.00426742
+Accuracy (423): 0.949
+Iteration: 0 Loss: 0.0026848
+Iteration: 10 Loss: 0.00106337
+Iteration: 20 Loss: 0.00265086
+Iteration: 30 Loss: 0.00305672
+Iteration: 40 Loss: 0.00112958
+Accuracy (424): 0.944
+Iteration: 0 Loss: 0.0148883
+Iteration: 10 Loss: 0.00279625
+Iteration: 20 Loss: 0.00123818
+Iteration: 30 Loss: 0.0014406
+Iteration: 40 Loss: 0.00420943
+Accuracy (425): 0.957
+Iteration: 0 Loss: 0.00300326
+Iteration: 10 Loss: 0.00694546
+Iteration: 20 Loss: 0.00130281
+Iteration: 30 Loss: 0.0160243
+Iteration: 40 Loss: 0.00224231
+Accuracy (426): 0.951
+Iteration: 0 Loss: 0.00140811
+Iteration: 10 Loss: 0.00337258
+Iteration: 20 Loss: 0.00447764
+Iteration: 30 Loss: 0.0205392
+Iteration: 40 Loss: 0.000790705
+Accuracy (427): 0.95
+Iteration: 0 Loss: 0.0018986
+Iteration: 10 Loss: 0.0011141
+Iteration: 20 Loss: 0.000943606
+Iteration: 30 Loss: 0.019996
+Iteration: 40 Loss: 0.000913494
+Accuracy (428): 0.95
+Iteration: 0 Loss: 0.000842084
+Iteration: 10 Loss: 0.007695
+Iteration: 20 Loss: 0.000760664
+Iteration: 30 Loss: 0.00142756
+Iteration: 40 Loss: 0.000647808
+Accuracy (429): 0.951
+Iteration: 0 Loss: 0.00529609
+Iteration: 10 Loss: 0.00138004
+Iteration: 20 Loss: 0.000722178
+Iteration: 30 Loss: 0.0034601
+Iteration: 40 Loss: 0.00111378
+Accuracy (430): 0.946
+Iteration: 0 Loss: 0.00763355
+Iteration: 10 Loss: 0.0220272
+Iteration: 20 Loss: 0.00123806
+Iteration: 30 Loss: 0.00378429
+Iteration: 40 Loss: 0.00241749
+Accuracy (431): 0.95
+Iteration: 0 Loss: 0.00773682
+Iteration: 10 Loss: 0.00128713
+Iteration: 20 Loss: 0.00274111
+Iteration: 30 Loss: 0.00326181
+Iteration: 40 Loss: 0.0024391
+Accuracy (432): 0.955
+Iteration: 0 Loss: 0.00331688
+Iteration: 10 Loss: 0.00211446
+Iteration: 20 Loss: 0.00103169
+Iteration: 30 Loss: 0.00556003
+Iteration: 40 Loss: 0.000670187
+Accuracy (433): 0.95
+Iteration: 0 Loss: 0.00611622
+Iteration: 10 Loss: 0.00317442
+Iteration: 20 Loss: 0.00329528
+Iteration: 30 Loss: 0.00779512
+Iteration: 40 Loss: 0.0132931
+Accuracy (434): 0.949
+Iteration: 0 Loss: 0.00209269
+Iteration: 10 Loss: 0.00440345
+Iteration: 20 Loss: 0.00274199
+Iteration: 30 Loss: 0.00615957
+Iteration: 40 Loss: 0.000585306
+Accuracy (435): 0.951
+Iteration: 0 Loss: 0.00118633
+Iteration: 10 Loss: 0.00122112
+Iteration: 20 Loss: 0.00545665
+Iteration: 30 Loss: 0.00640369
+Iteration: 40 Loss: 0.00108481
+Accuracy (436): 0.956
+Iteration: 0 Loss: 0.00128385
+Iteration: 10 Loss: 0.00139864
+Iteration: 20 Loss: 0.0010929
+Iteration: 30 Loss: 0.00261633
+Iteration: 40 Loss: 0.00356739
+Accuracy (437): 0.955
+Iteration: 0 Loss: 0.00165393
+Iteration: 10 Loss: 0.00363933
+Iteration: 20 Loss: 0.00117728
+Iteration: 30 Loss: 0.00945298
+Iteration: 40 Loss: 0.00192391
+Accuracy (438): 0.957
+Iteration: 0 Loss: 0.00269033
+Iteration: 10 Loss: 0.00374338
+Iteration: 20 Loss: 0.00242581
+Iteration: 30 Loss: 0.00475138
+Iteration: 40 Loss: 0.000632504
+Accuracy (439): 0.954
+Iteration: 0 Loss: 0.0040314
+Iteration: 10 Loss: 0.00279659
+Iteration: 20 Loss: 0.00374579
+Iteration: 30 Loss: 0.00113509
+Iteration: 40 Loss: 0.00570573
+Accuracy (440): 0.955
+Iteration: 0 Loss: 0.00120827
+Iteration: 10 Loss: 0.0101126
+Iteration: 20 Loss: 0.00185943
+Iteration: 30 Loss: 0.000831715
+Iteration: 40 Loss: 0.00057683
+Accuracy (441): 0.959
+Iteration: 0 Loss: 0.0101144
+Iteration: 10 Loss: 0.00463612
+Iteration: 20 Loss: 0.00107764
+Iteration: 30 Loss: 0.00357629
+Iteration: 40 Loss: 0.00144326
+Accuracy (442): 0.946
+Iteration: 0 Loss: 0.00212047
+Iteration: 10 Loss: 0.00169678
+Iteration: 20 Loss: 0.0168431
+Iteration: 30 Loss: 0.00618709
+Iteration: 40 Loss: 0.000408832
+Accuracy (443): 0.954
+Iteration: 0 Loss: 0.00175267
+Iteration: 10 Loss: 0.0023854
+Iteration: 20 Loss: 0.000957517
+Iteration: 30 Loss: 0.0042589
+Iteration: 40 Loss: 0.000846715
+Accuracy (444): 0.952
+Iteration: 0 Loss: 0.00501569
+Iteration: 10 Loss: 0.00542572
+Iteration: 20 Loss: 0.000719664
+Iteration: 30 Loss: 0.000733997
+Iteration: 40 Loss: 0.00299449
+Accuracy (445): 0.958
+Iteration: 0 Loss: 0.00290581
+Iteration: 10 Loss: 0.00224802
+Iteration: 20 Loss: 0.00315247
+Iteration: 30 Loss: 0.00180491
+Iteration: 40 Loss: 0.0013597
+Accuracy (446): 0.962
+Iteration: 0 Loss: 0.00150901
+Iteration: 10 Loss: 0.00290845
+Iteration: 20 Loss: 0.00644823
+Iteration: 30 Loss: 0.0130882
+Iteration: 40 Loss: 0.000695748
+Accuracy (447): 0.951
+Iteration: 0 Loss: 0.00559366
+Iteration: 10 Loss: 0.000788277
+Iteration: 20 Loss: 0.00219608
+Iteration: 30 Loss: 0.00846346
+Iteration: 40 Loss: 0.00112316
+Accuracy (448): 0.946
+Iteration: 0 Loss: 0.00173324
+Iteration: 10 Loss: 0.00669954
+Iteration: 20 Loss: 0.00147286
+Iteration: 30 Loss: 0.00113279
+Iteration: 40 Loss: 0.000847459
+Accuracy (449): 0.946
+Iteration: 0 Loss: 0.00245597
+Iteration: 10 Loss: 0.000939759
+Iteration: 20 Loss: 0.0018199
+Iteration: 30 Loss: 0.0229484
+Iteration: 40 Loss: 0.00921696
+Accuracy (450): 0.943
+Iteration: 0 Loss: 0.0026547
+Iteration: 10 Loss: 0.0124949
+Iteration: 20 Loss: 0.00693534
+Iteration: 30 Loss: 0.00371316
+Iteration: 40 Loss: 0.0026782
+Accuracy (451): 0.946
+Iteration: 0 Loss: 0.00500698
+Iteration: 10 Loss: 0.0037514
+Iteration: 20 Loss: 0.00352038
+Iteration: 30 Loss: 0.0176707
+Iteration: 40 Loss: 0.00176262
+Accuracy (452): 0.95
+Iteration: 0 Loss: 0.00282938
+Iteration: 10 Loss: 0.00461187
+Iteration: 20 Loss: 0.00140304
+Iteration: 30 Loss: 0.00289213
+Iteration: 40 Loss: 0.0017643
+Accuracy (453): 0.945
+Iteration: 0 Loss: 0.00942531
+Iteration: 10 Loss: 0.00373886
+Iteration: 20 Loss: 0.00169881
+Iteration: 30 Loss: 0.00222301
+Iteration: 40 Loss: 0.00134959
+Accuracy (454): 0.953
+Iteration: 0 Loss: 0.00401399
+Iteration: 10 Loss: 0.00083251
+Iteration: 20 Loss: 0.000730108
+Iteration: 30 Loss: 0.00668643
+Iteration: 40 Loss: 0.00136132
+Accuracy (455): 0.947
+Iteration: 0 Loss: 0.0053097
+Iteration: 10 Loss: 0.00554135
+Iteration: 20 Loss: 0.001213
+Iteration: 30 Loss: 0.000914244
+Iteration: 40 Loss: 0.000927517
+Accuracy (456): 0.951
+Iteration: 0 Loss: 0.0013654
+Iteration: 10 Loss: 0.0206216
+Iteration: 20 Loss: 0.00505798
+Iteration: 30 Loss: 0.00165886
+Iteration: 40 Loss: 0.00141927
+Accuracy (457): 0.959
+Iteration: 0 Loss: 0.00102671
+Iteration: 10 Loss: 0.00313199
+Iteration: 20 Loss: 0.00210194
+Iteration: 30 Loss: 0.00363618
+Iteration: 40 Loss: 0.00344117
+Accuracy (458): 0.95
+Iteration: 0 Loss: 0.00761847
+Iteration: 10 Loss: 0.00324085
+Iteration: 20 Loss: 0.00266303
+Iteration: 30 Loss: 0.00122303
+Iteration: 40 Loss: 0.000592829
+Accuracy (459): 0.948
+Iteration: 0 Loss: 0.000506856
+Iteration: 10 Loss: 0.00490696
+Iteration: 20 Loss: 0.00143003
+Iteration: 30 Loss: 0.00753275
+Iteration: 40 Loss: 0.00151853
+Accuracy (460): 0.948
+Iteration: 0 Loss: 0.00452353
+Iteration: 10 Loss: 0.000964918
+Iteration: 20 Loss: 0.0049247
+Iteration: 30 Loss: 0.00426782
+Iteration: 40 Loss: 0.000468551
+Accuracy (461): 0.952
+Iteration: 0 Loss: 0.00234467
+Iteration: 10 Loss: 0.00187207
+Iteration: 20 Loss: 0.00152804
+Iteration: 30 Loss: 0.00252774
+Iteration: 40 Loss: 0.000514456
+Accuracy (462): 0.952
+Iteration: 0 Loss: 0.00337148
+Iteration: 10 Loss: 0.00318606
+Iteration: 20 Loss: 0.00129672
+Iteration: 30 Loss: 0.00464613
+Iteration: 40 Loss: 0.000537593
+Accuracy (463): 0.956
+Iteration: 0 Loss: 0.00366486
+Iteration: 10 Loss: 0.00302301
+Iteration: 20 Loss: 0.00145899
+Iteration: 30 Loss: 0.00271872
+Iteration: 40 Loss: 0.00143512
+Accuracy (464): 0.954
+Iteration: 0 Loss: 0.00136798
+Iteration: 10 Loss: 0.0024915
+Iteration: 20 Loss: 0.00179845
+Iteration: 30 Loss: 0.000931687
+Iteration: 40 Loss: 0.00125719
+Accuracy (465): 0.944
+Iteration: 0 Loss: 0.00175402
+Iteration: 10 Loss: 0.00213128
+Iteration: 20 Loss: 0.00140899
+Iteration: 30 Loss: 0.00224429
+Iteration: 40 Loss: 0.00196224
+Accuracy (466): 0.956
+Iteration: 0 Loss: 0.00478661
+Iteration: 10 Loss: 0.00476289
+Iteration: 20 Loss: 0.00127167
+Iteration: 30 Loss: 0.000722589
+Iteration: 40 Loss: 0.00126542
+Accuracy (467): 0.949
+Iteration: 0 Loss: 0.00177593
+Iteration: 10 Loss: 0.0188459
+Iteration: 20 Loss: 0.00302785
+Iteration: 30 Loss: 0.00167436
+Iteration: 40 Loss: 0.0026154
+Accuracy (468): 0.95
+Iteration: 0 Loss: 0.00297132
+Iteration: 10 Loss: 0.00207388
+Iteration: 20 Loss: 0.00372449
+Iteration: 30 Loss: 0.00157567
+Iteration: 40 Loss: 0.00367931
+Accuracy (469): 0.954
+Iteration: 0 Loss: 0.0030759
+Iteration: 10 Loss: 0.00404321
+Iteration: 20 Loss: 0.00631514
+Iteration: 30 Loss: 0.00330372
+Iteration: 40 Loss: 0.000994589
+Accuracy (470): 0.946
+Iteration: 0 Loss: 0.00357546
+Iteration: 10 Loss: 0.000986171
+Iteration: 20 Loss: 0.00333097
+Iteration: 30 Loss: 0.00128467
+Iteration: 40 Loss: 0.000642474
+Accuracy (471): 0.954
+Iteration: 0 Loss: 0.0021033
+Iteration: 10 Loss: 0.0115565
+Iteration: 20 Loss: 0.00153884
+Iteration: 30 Loss: 0.00442453
+Iteration: 40 Loss: 0.00103767
+Accuracy (472): 0.953
+Iteration: 0 Loss: 0.00049753
+Iteration: 10 Loss: 0.00108391
+Iteration: 20 Loss: 0.00276044
+Iteration: 30 Loss: 0.00695202
+Iteration: 40 Loss: 0.00104971
+Accuracy (473): 0.947
+Iteration: 0 Loss: 0.00386237
+Iteration: 10 Loss: 0.00237193
+Iteration: 20 Loss: 0.00238283
+Iteration: 30 Loss: 0.00222464
+Iteration: 40 Loss: 0.000962395
+Accuracy (474): 0.959
+Iteration: 0 Loss: 0.00694941
+Iteration: 10 Loss: 0.00944822
+Iteration: 20 Loss: 0.0031991
+Iteration: 30 Loss: 0.000732948
+Iteration: 40 Loss: 0.00115473
+Accuracy (475): 0.955
+Iteration: 0 Loss: 0.000454029
+Iteration: 10 Loss: 0.00122748
+Iteration: 20 Loss: 0.0033089
+Iteration: 30 Loss: 0.00307809
+Iteration: 40 Loss: 0.00198604
+Accuracy (476): 0.948
+Iteration: 0 Loss: 0.00393093
+Iteration: 10 Loss: 0.0015525
+Iteration: 20 Loss: 0.00337804
+Iteration: 30 Loss: 0.00126992
+Iteration: 40 Loss: 0.000675209
+Accuracy (477): 0.959
+Iteration: 0 Loss: 0.001222
+Iteration: 10 Loss: 0.00744194
+Iteration: 20 Loss: 0.00274495
+Iteration: 30 Loss: 0.00526181
+Iteration: 40 Loss: 0.000900369
+Accuracy (478): 0.954
+Iteration: 0 Loss: 0.000626806
+Iteration: 10 Loss: 0.00547028
+Iteration: 20 Loss: 0.00273672
+Iteration: 30 Loss: 0.00120228
+Iteration: 40 Loss: 0.00196392
+Accuracy (479): 0.958
+Iteration: 0 Loss: 0.00102166
+Iteration: 10 Loss: 0.00337442
+Iteration: 20 Loss: 0.00148955
+Iteration: 30 Loss: 0.00180364
+Iteration: 40 Loss: 0.00521179
+Accuracy (480): 0.957
+Iteration: 0 Loss: 0.00344751
+Iteration: 10 Loss: 0.00468912
+Iteration: 20 Loss: 0.0104268
+Iteration: 30 Loss: 0.00184813
+Iteration: 40 Loss: 0.00035181
+Accuracy (481): 0.959
+Iteration: 0 Loss: 0.000775922
+Iteration: 10 Loss: 0.00692198
+Iteration: 20 Loss: 0.00166866
+Iteration: 30 Loss: 0.000453198
+Iteration: 40 Loss: 0.000687732
+Accuracy (482): 0.952
+Iteration: 0 Loss: 0.00485848
+Iteration: 10 Loss: 0.00241447
+Iteration: 20 Loss: 0.0367427
+Iteration: 30 Loss: 0.000737666
+Iteration: 40 Loss: 0.000819109
+Accuracy (483): 0.954
+Iteration: 0 Loss: 0.000515357
+Iteration: 10 Loss: 0.00687236
+Iteration: 20 Loss: 0.000839371
+Iteration: 30 Loss: 0.00474024
+Iteration: 40 Loss: 0.000768467
+Accuracy (484): 0.957
+Iteration: 0 Loss: 0.00642084
+Iteration: 10 Loss: 0.00155624
+Iteration: 20 Loss: 0.00587288
+Iteration: 30 Loss: 0.000745733
+Iteration: 40 Loss: 0.0012453
+Accuracy (485): 0.949
+Iteration: 0 Loss: 0.0152416
+Iteration: 10 Loss: 0.00379808
+Iteration: 20 Loss: 0.00347538
+Iteration: 30 Loss: 0.000665031
+Iteration: 40 Loss: 0.000820619
+Accuracy (486): 0.957
+Iteration: 0 Loss: 0.00430885
+Iteration: 10 Loss: 0.00270013
+Iteration: 20 Loss: 0.00363408
+Iteration: 30 Loss: 0.000339661
+Iteration: 40 Loss: 0.00191026
+Accuracy (487): 0.951
+Iteration: 0 Loss: 0.00304512
+Iteration: 10 Loss: 0.00229342
+Iteration: 20 Loss: 0.00215166
+Iteration: 30 Loss: 0.000595191
+Iteration: 40 Loss: 0.00655834
+Accuracy (488): 0.951
+Iteration: 0 Loss: 0.00327213
+Iteration: 10 Loss: 0.00252303
+Iteration: 20 Loss: 0.00388031
+Iteration: 30 Loss: 0.00128912
+Iteration: 40 Loss: 0.00267541
+Accuracy (489): 0.954
+Iteration: 0 Loss: 0.0187626
+Iteration: 10 Loss: 0.00216853
+Iteration: 20 Loss: 0.00234846
+Iteration: 30 Loss: 0.0255704
+Iteration: 40 Loss: 0.000636644
+Accuracy (490): 0.949
+Iteration: 0 Loss: 0.00360862
+Iteration: 10 Loss: 0.00299317
+Iteration: 20 Loss: 0.00184192
+Iteration: 30 Loss: 0.00128002
+Iteration: 40 Loss: 0.000900322
+Accuracy (491): 0.947
+Iteration: 0 Loss: 0.0017673
+Iteration: 10 Loss: 0.00372666
+Iteration: 20 Loss: 0.000460484
+Iteration: 30 Loss: 0.00357105
+Iteration: 40 Loss: 0.00168578
+Accuracy (492): 0.948
+Iteration: 0 Loss: 0.0029572
+Iteration: 10 Loss: 0.000862765
+Iteration: 20 Loss: 0.00253155
+Iteration: 30 Loss: 0.000826196
+Iteration: 40 Loss: 0.000709403
+Accuracy (493): 0.96
+Iteration: 0 Loss: 0.00764789
+Iteration: 10 Loss: 0.0016179
+Iteration: 20 Loss: 0.00549424
+Iteration: 30 Loss: 0.00292055
+Iteration: 40 Loss: 0.000847008
+Accuracy (494): 0.954
+Iteration: 0 Loss: 0.00199817
+Iteration: 10 Loss: 0.00587097
+Iteration: 20 Loss: 0.00505572
+Iteration: 30 Loss: 0.0187529
+Iteration: 40 Loss: 0.00400892
+Accuracy (495): 0.945
+Iteration: 0 Loss: 0.00567382
+Iteration: 10 Loss: 0.00215938
+Iteration: 20 Loss: 0.00515907
+Iteration: 30 Loss: 0.013654
+Iteration: 40 Loss: 0.00607004
+Accuracy (496): 0.951
+Iteration: 0 Loss: 0.00112387
+Iteration: 10 Loss: 0.00345159
+Iteration: 20 Loss: 0.00500564
+Iteration: 30 Loss: 0.00193411
+Iteration: 40 Loss: 0.00226247
+Accuracy (497): 0.959
+Iteration: 0 Loss: 0.00336144
+Iteration: 10 Loss: 0.00296829
+Iteration: 20 Loss: 0.00295731
+Iteration: 30 Loss: 0.0198639
+Iteration: 40 Loss: 0.00120826
+Accuracy (498): 0.945
+Iteration: 0 Loss: 0.0017537
+Iteration: 10 Loss: 0.00103457
+Iteration: 20 Loss: 0.000925506
+Iteration: 30 Loss: 0.000594259
+Iteration: 40 Loss: 0.000978273
+Accuracy (499): 0.948
+
+
+
+ Final Theta Values for Layer 1:
+[ 0.57281566  0.05785337 -0.18885571 -0.16531074  0.72093213  0.09665227]
+
+
+Predicted   0    1    2   3   4    5   6    7   8    9   All
+Actual                                                      
+0          88    0    0   0   0    0   2    0   1    0    91
+1           1  123    0   0   0    0   0    0   1    0   125
+2           0    0  103   0   0    0   0    0   0    1   104
+3           0    0    1  97   0    1   0    0   2    0   101
+4           0    1    0   0  88    0   1    0   2    4    96
+5           1    0    0   2   0   96   0    1   2    0   102
+6           0    1    1   0   0    1  73    0   0    0    76
+7           0    0    0   0   0    0   0   99   0    0    99
+8           0    0    0   0   0    2   0    3  90    0    95
+9           2    0    0   0   1    1   0    0   0  107   111
+All        92  125  105  99  89  101  76  103  98  112  1000
+
+correctly predicted 964
+out of 1000
+
+Indices of wrong images: [13, 75, 98, 128, 140, 144, 152, 169, 216, 296, 337, 396, 420, 432, 465, 477, 488, 562, 566, 608, 626, 663, 688, 717, 747, 789, 791, 823, 859, 868, 894, 902, 919, 922, 942, 961]

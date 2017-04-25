@@ -1,0 +1,3 @@
+(Epoch.*\n)|(Accu.*\n)|(\[ .*\n)|(\[ .*\r\n)|(   [0-9].*\])
+(Currently.*\n)|(Epoch.*\n)|(Acc.*\n)|(\[ .*]\n)|(Final.*\n)
+(Acc.*\n)

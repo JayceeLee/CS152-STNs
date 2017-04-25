@@ -1,0 +1,122 @@
+cnn only run
+iters per epoch: 50
+number of epochs 100
+
+Accuracy (0): 0.09
+Accuracy (1): 0.123
+Accuracy (2): 0.289
+Accuracy (3): 0.37
+Accuracy (4): 0.429
+Accuracy (5): 0.47
+Accuracy (6): 0.507
+Accuracy (7): 0.54
+Accuracy (8): 0.572
+Accuracy (9): 0.607
+Accuracy (10): 0.641
+Accuracy (11): 0.659
+Accuracy (12): 0.702
+Accuracy (13): 0.729
+Accuracy (14): 0.735
+Accuracy (15): 0.747
+Accuracy (16): 0.756
+Accuracy (17): 0.758
+Accuracy (18): 0.764
+Accuracy (19): 0.783
+Accuracy (20): 0.79
+Accuracy (21): 0.795
+Accuracy (22): 0.79
+Accuracy (23): 0.816
+Accuracy (24): 0.819
+Accuracy (25): 0.82
+Accuracy (26): 0.817
+Accuracy (27): 0.828
+Accuracy (28): 0.834
+Accuracy (29): 0.834
+Accuracy (30): 0.839
+Accuracy (31): 0.84
+Accuracy (32): 0.828
+Accuracy (33): 0.831
+Accuracy (34): 0.843
+Accuracy (35): 0.843
+Accuracy (36): 0.841
+Accuracy (37): 0.837
+Accuracy (38): 0.836
+Accuracy (39): 0.825
+Accuracy (40): 0.828
+Accuracy (41): 0.83
+Accuracy (42): 0.835
+Accuracy (43): 0.83
+Accuracy (44): 0.834
+Accuracy (45): 0.828
+Accuracy (46): 0.825
+Accuracy (47): 0.831
+Accuracy (48): 0.841
+Accuracy (49): 0.834
+Accuracy (50): 0.829
+Accuracy (51): 0.829
+Accuracy (52): 0.827
+Accuracy (53): 0.84
+Accuracy (54): 0.838
+Accuracy (55): 0.84
+Accuracy (56): 0.841
+Accuracy (57): 0.841
+Accuracy (58): 0.838
+Accuracy (59): 0.843
+Accuracy (60): 0.838
+Accuracy (61): 0.834
+Accuracy (62): 0.83
+Accuracy (63): 0.842
+Accuracy (64): 0.844
+Accuracy (65): 0.843
+Accuracy (66): 0.839
+Accuracy (67): 0.846
+Accuracy (68): 0.83
+Accuracy (69): 0.837
+Accuracy (70): 0.829
+Accuracy (71): 0.836
+Accuracy (72): 0.836
+Accuracy (73): 0.84
+Accuracy (74): 0.842
+Accuracy (75): 0.836
+Accuracy (76): 0.838
+Accuracy (77): 0.835
+Accuracy (78): 0.84
+Accuracy (79): 0.834
+Accuracy (80): 0.833
+Accuracy (81): 0.836
+Accuracy (82): 0.845
+Accuracy (83): 0.835
+Accuracy (84): 0.834
+Accuracy (85): 0.834
+Accuracy (86): 0.842
+Accuracy (87): 0.834
+Accuracy (88): 0.834
+Accuracy (89): 0.838
+Accuracy (90): 0.839
+Accuracy (91): 0.832
+Accuracy (92): 0.837
+Accuracy (93): 0.822
+Accuracy (94): 0.833
+Accuracy (95): 0.831
+Accuracy (96): 0.832
+Accuracy (97): 0.832
+Accuracy (98): 0.839
+Accuracy (99): 0.837
+Predicted   0    1    2   3    4    5   6    7   8    9   All
+Actual                                                       
+0          75    0    3   0    1    1   6    1   2    2    91
+1           0  114    2   0    4    0   1    1   2    1   125
+2           0    0   97   2    2    1   0    0   2    0   104
+3           2    0    3  81    0   10   0    3   1    1   101
+4           0    1    1   0   85    0   1    2   0    6    96
+5           2    3    1   5    1   82   1    1   4    2   102
+6           0    0    0   0    5    3  66    1   0    1    76
+7           0    0    3   0    5    1   0   83   0    7    99
+8           2    1    2   3    1    3   3    5  71    4    95
+9           2    0    0   0    6    1   0    4   2   96   111
+All        83  119  112  91  110  102  78  101  84  120  1000
+
+correctly predicted 850
+out of 1000
+
+Indices of wrong images: [2, 8, 13, 25, 30, 32, 35, 55, 60, 64, 68, 72, 75, 83, 98, 99, 117, 121, 122, 127, 137, 140, 152, 168, 169, 189, 202, 209, 215, 216, 219, 220, 222, 227, 230, 240, 241, 249, 255, 256, 269, 283, 285, 300, 314, 316, 319, 330, 337, 340, 343, 369, 371, 377, 384, 385, 395, 396, 402, 411, 417, 420, 421, 424, 426, 429, 435, 441, 443, 447, 461, 463, 465, 466, 473, 487, 488, 493, 497, 500, 505, 515, 518, 520, 536, 563, 572, 576, 578, 581, 583, 590, 592, 606, 608, 628, 629, 630, 638, 645, 646, 647, 663, 673, 687, 693, 706, 710, 712, 717, 718, 732, 736, 739, 744, 745, 747, 750, 752, 757, 776, 789, 791, 802, 806, 810, 823, 841, 849, 857, 859, 862, 863, 890, 894, 895, 897, 901, 903, 906, 915, 919, 922, 929, 941, 942, 957, 962, 972, 985]

@@ -231,7 +231,7 @@ indices = indices.astype('int')
 
 for epoch_i in range(n_epochs): 
     for iter_i in range(iter_per_epoch - 1):
-        print("Currently on Epoch %d, Iteration %d" % (epoch_i, iter_i), end='\r')
+        # print("Currently on Epoch %d, Iteration %d" % (epoch_i, iter_i), end='\r')
 
         batch_xs = X_train[indices[iter_i]:indices[iter_i+1]]
         batch_ys = Y_train[indices[iter_i]:indices[iter_i+1]]
