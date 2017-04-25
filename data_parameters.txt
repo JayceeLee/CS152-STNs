@@ -1,0 +1,6 @@
+X_train.shape
+(10000, 1600)
+X_test.shape
+(1000, 1600)
+X_valid.shape
+(1000, 1600)
