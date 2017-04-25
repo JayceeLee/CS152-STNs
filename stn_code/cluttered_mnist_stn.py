@@ -19,13 +19,20 @@ from tf_utils import weight_variable, bias_variable, dense_to_one_hot
 import os
 import matplotlib.pyplot as plt
 import pandas as pd
+import sys
+
+run_num = sys.argv[1]
 
 # Training Parameters
 iter_per_epoch = 50
-n_epochs = 500
+n_epochs = int(sys.argv[2])
 
-mainOutdir = os.path.join('output', 'stn_cnn_run1')
-modelPath = os.path.join(mainOutdir, 'stn_cnn_model')
+print("stn+cnn run")
+print("iters per epoch: %d" % iter_per_epoch)
+print("number of epochs: %d\n" % n_epochs)
+
+mainOutdir = os.path.join('output', 'stn_run' + str(run_num))
+modelPath = os.path.join(mainOutdir, 'stn_model')
 
 if not os.path.exists(modelPath):
     os.makedirs(modelPath)

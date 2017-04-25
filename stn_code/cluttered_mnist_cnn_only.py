@@ -19,25 +19,32 @@ from tf_utils import weight_variable, bias_variable, dense_to_one_hot
 import os
 import matplotlib.pyplot as plt
 import pandas as pd
+import sys
+
+run_num = sys.argv[1]
 
 # Training Parameters
 iter_per_epoch = 50
-n_epochs = 500
+n_epochs = int(sys.argv[2])
 
-mainOutdir = os.path.join('output', 'cnn_run1')
+print("cnn only run")
+print("iters per epoch: %d" % iter_per_epoch)
+print("number of epochs %d\n" % n_epochs)
+
+mainOutdir = os.path.join('output', 'cnn_run' + str(run_num))
 modelPath = os.path.join(mainOutdir, 'cnn_model')
 
 if not os.path.exists(modelPath):
     os.makedirs(modelPath)
 
-outdirOriginal = os.path.join(mainOutdir, 'originalImages')
-outdirModified = os.path.join(mainOutdir, 'modifiedImages')
+# outdirOriginal = os.path.join(mainOutdir, 'originalImages')
+# outdirModified = os.path.join(mainOutdir, 'modifiedImages')
 
-if not os.path.exists(outdirOriginal):
-   os.makedirs(outdirOriginal)
+# if not os.path.exists(outdirOriginal):
+#    os.makedirs(outdirOriginal)
 
-if not os.path.exists(outdirModified):
-    os.makedirs(outdirModified)
+# if not os.path.exists(outdirModified):
+#     os.makedirs(outdirModified)
 
 # Suppress the warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
