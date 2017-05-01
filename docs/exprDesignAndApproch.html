@@ -26,16 +26,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="bootstrap-3.3.7-dist/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="bootstrap-3.3.7-dist/navbar-fixed-top.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="bootstrap-3.3.7-dist/assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="bootstrap-3.3.7-dist/ie/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -53,22 +45,33 @@
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <h3>Spatial Transformer Networks: Digit Identification</h3>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Spatial Tranformer Networks: Digit Identification</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="problemStatement.html">Problem Statement</a></li>
-            <li class="active"><a href="exprDesignAndApproch.html">Experiemental Design and Approach</a></li>
-            <li><a href="resultsAndConclusions.html">Results and Conculusions</a></li>
-            <li><a href="references.html">References</a></li>
-            <li><a href="codeDirectory.html">Code Directory</a></li>
+            <li class="active"><a href="exprDesignAndApproch.html">Experimental Design and Approach</a></li>
+            <li><a href="resultsAndConclusions.html">Results and Conclusions</a></li>
             <li><a href="classPresentations.html">Class Presentations</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">References and Code <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="references.html">References</a></li>
+                <li><a href="codeDirectory.html">Code Directory</a></li>
+              </ul>
+            </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <div class="container grey-box">
+    <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
@@ -88,8 +91,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="bootstrap-3.3.7-dist/ie/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
