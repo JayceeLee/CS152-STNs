@@ -35,7 +35,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
     <link href="adjustJumbotron.css?v=4" rel="stylesheet">
 
   </head>
@@ -56,15 +55,15 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="problemStatement.html">Problem Statement</a></li>
-            <li><a href="exprDesignAndApproch.html">Experimental Design</a></li>
-            <li><a href="resultsAndConclusions.html">Results</a></li>
-            <li class><a href="classPresentations.html">Presentations</a></li>
-            <li class="dropdown active">
+            <li><a href="problem.html">Problem Statement</a></li>
+            <li><a href="experiment.html">Experimental Design</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li class="active"><a href="present.html">Presentations</a></li>
+            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">References and Code <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="references.html">References</a></li>
-                <li class="active"><a href="codeDirectory.html">Code Directory</a></li>
+                <li><a href="code.html">Code Directory</a></li>
               </ul>
             </li>
           </ul>
@@ -72,19 +71,45 @@
       </div>
     </nav>
 
-
     <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Code Directory</h1>
-        <h2>Github Code Base</h2>
-        <p><a href="https://github.com/scchow/CS152-STNs">STN Code</a></p>
-        <h2></h2>
-        <p></p>
+        <h1>Class Presentations</h1>
+        <h2> Project Proposal 3/28/17 (5 mins)</h2>
+
+          <div id="proposal" style="height: 600px; display: block;">
+          </div>
+
+          <p><a href="https://docs.google.com/presentation/d/196DyecwNQN2HnkGe4u0_RxC6Dq-w9ncDilyI3hFUBhc/edit?usp=sharing">Google Slides Link</a></p>
+          <p><a href='presentations/final.pdf'>PDF Link</a></p>
+
+        <h2> Final Presentation 4/27/17 (15 mins)</h2>
+
+
+          <div id="final" style="height: 600px; display: block;">
+          </div>
+
+          <p><a href="https://docs.google.com/presentation/d/1sBngGikvatAJOdg1qx_P_AamOZ36Xq4U0VlvltGEhzs/edit?usp=sharing">Google Slides Link</a></p>
+          <p>Link to PDF <a href='presentations/final.pdf'>PDF Link</a></p>
       </div>
 
     </div> <!-- /container -->
+
+    <script src="pdfobject/pdfobject.min.js"></script>
+    <script>
+
+    var options1 = {
+        fallbackLink: "<p><a href='presentations/proposal.pdf'>PDF Here</a></p>"
+    };
+
+    var options2 = {
+        fallbackLink: "<p><a href='presentations/final.pdf'>PDF Here</a></p>"
+    };
+
+    PDFObject.embed("presentations/proposal.pdf", "#proposal");
+    PDFObject.embed("presentations/final.pdf","#final");
+    </script>
 
 
     <!-- Bootstrap core JavaScript
