@@ -1,7 +1,7 @@
 # CS152-STNs
 
 This page contains the code used for testing the Spatial Transformer Network.
-
+The project description page can be found [here](https://scchow.github.io/CS152-STNs/).
 
 ## Folders
 
