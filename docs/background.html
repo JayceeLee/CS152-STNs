@@ -79,7 +79,7 @@
       <div class="jumbotron">
         <h1>Background</h1>
         <p>
-        The primary text of interest our project is focused on is <a href="STN_paper_better.pdf">Spatial Transformer Networks</a> by Jaderburg et al. 
+        The primary text of interest our project is focused on is <a href="STN_paper.pdf">Spatial Transformer Networks</a> by Jaderburg et al. 
         This paper primarily presents the idea of Spatial Transformers and using them to improve the performance of convolutional neural network (CNN)-based digit identifiers. 
         In this section, we provide background on the spatial transformers and how they work.
         </p>
@@ -112,16 +112,18 @@
          
         </p>
 
-      <h2>Integrating Spatial Transformers into CNNs</h2>
-      <p>
-      Discuss integration        
-      </p>
-
+      <h2>Integrating Spatial Transformers with CNNs</h2>
+        <p>
+        Spatial transformers typically output feature maps with the same dimensions as the input feature map. This would allow for easy integration into pre-existing networks, since a spatial transformer can be seamlessly inserted before a CNN, with no changes to the CNN code. As described in <a href="STN_paper.pdf">Spatial Transformer Networks</a> by Jaderburg et al., the spatial transformer can help actively transform the feature map to minimize a given cost function. The spatial transformer can also downsample or upsample a feature map, although this would change the dimensions of the output image resulting in more overhead in integration of pre-existing networks.
+        </p>
+        <p>
+        Jaderburg et al. implement spatial transformers in series with fully connected networks (FCNs) and CNNs for digit identification. They report a reduced error of 13.2% to 2.0% for the FCN, and from 3.5% to 1.7% for the CNN.
+        </p>
 
       <h2>Extension: Adding Spatial Transformers between CNN Layers</h2>
-      <p>
-      Discuss multi STNs        
-      </p>
+        <p>
+        <a href="STN_paper.pdf">Spatial Transformer Networks</a> presents results of a spatial transformer being placed before a CNN for digit identification. However, Jaderburg et al. posit that this is not the only location a spatial transformer can be placed in the neural network chain. The paper suggests that spatial transformers can be placed between convolutional layers in a network, which will create abstract representations of the input feature map. This idea is explored in this project, discussed in detail in <a href="experiment.html">Experimental Design</a>.
+        </p>
 
 
       </div>
