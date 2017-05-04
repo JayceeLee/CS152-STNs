@@ -110,9 +110,11 @@
           <h2>Comparison of Network Results</h2>
             <p>The figure below depicts the accuracy of each network accross varying number of training epochs. The figure shows that the usage of STNs in the digit identification networks improve the identification accuracy from the sole CNN. This is expected, as the usage of STNs reduce the clutter and noise in the digit image that goes through the CNN.</p>
             <p>The networks were only run for 3 trials at each epoch, but it is apparent that for each number of training epochs, the STN performs the best and the CNN performs the worst. In almost all cases, the error bars of the network performances are even non-overlapping.</p>
-            <img src="images/comparison.png" alt="network_comparisons" style="width:75%;">
+            <img src="images/comparison.png" alt="network_comparisons" style="width:100%;">
 
           <h2>Future Work</h2>
+            <p>In the primary text from Google DeepMind (see <a href="references.html">References</a>), Jaderberg et al. suggests implementing multi-layered STNs, e.g. STNs within convolutional layers. This project experimented with one such configuration, referred to here as MSTNs, but more configurations of networks can be tested.</p>
+            <p>Another improvement can be in the formulation of the STN itself. As mentioned in Jaderberg et al., STNs require a 'localization network', but there is not one specified. This project used a 2-layer, fully connected network with dropout (on the first layer). Different localization networks can be implemented in each STN.</p>
 
       </div>
 

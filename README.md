@@ -20,7 +20,7 @@ This page contains the code used for testing the Spatial Transformer Network.
 
 Note: Running the bat file by itself has not been tested. Use the file by copying and pasting onto the command line. Also command line arguments are Windows only.
 
-[`STN_paper_better.pdf`](STN_paper_better.pdf) is the main paper on Spatial Transformer Networks, copied to the repository for convenience.
+[`STN_paper.pdf`](STN_paper.pdf) is the main paper on Spatial Transformer Networks, copied to the repository for convenience.
 
 [`useful_regex.txt`](useful_regex.txt) contains several regex that are useful for parsing output files. They are included for reference.
 
