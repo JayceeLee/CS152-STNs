@@ -56,18 +56,19 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="problem.html">Problem Statement</a></li>
+            <li><a href="background.html">Background</a></li>
             <li class="active"><a href="experiment.html">Experimental Design</a></li>
             <li><a href="results.html">Results</a></li>
-            <li><a href="present.html">Presentations</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">References and Code <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
               <ul class="dropdown-menu">
+                <li><a href="present.html">Presentations</a></li>
                 <li><a href="references.html">References</a></li>
                 <li><a href="code.html">Code Directory</a></li>
               </ul>
             </li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
 
@@ -89,13 +90,13 @@
               The diagram below shows our convolutional neural network (CNN) configuration. This model provides a baseline to compare the performance of the networks that contain Spatial Transformers.
               </p>
               
-              <img src="images/network_cnn.png" alt="network_cnn" style="width:75%; margin-bottom: 1em;">
+              <img src="images/network_cnn.png" alt="network_cnn" align="middle" style="width:75%; margin-bottom: 1em;">
 
               <p>
               Zooming into CNN, we see that it consists of two sets of a convolutional layer (blue) followed by a ReLU layer (green). After convolution, the image is reshaped and put through a fully connected layer and softmax layer to generate a prediction.
               </p>
 
-              <img src="images/inside_cnn.png" alt="inside_cnn" style="width:75%;">
+              <img src="images/inside_cnn.png" align="middle" alt="inside_cnn" style="width:75%;">
 
             <br></br>
 
@@ -105,13 +106,13 @@
               The diagram below shows our spatial transformer network (STN) configuration. This network consists of a spatial transformer that preprocesses the image and then the CNN to predicts the digit. 
               </p>
 
-              <img src="images/network_stn.png" alt="network_stn" style="width:75%; margin-bottom: 1em;">
+              <img src="images/network_stn.png" align="middle" alt="network_stn" style="width:75%; margin-bottom: 1em;">
 
               <p>
               The CNN is the same as in the previous section. Let us take a look at the spatial transformer. The localization network of the Spatial Transformer consists of fully connected layer with dropout. The localization network outputs parameters for the tranformer module. The transformer module uses those parameters to create a grid and sampler that maps points on the original image to points on the new image that will be better oriented. 
 
               </p>
-              <img src="images/inside_stn.png" alt="inside_stn" style="width:75%;">
+              <img src="images/inside_stn.png" align="middle" alt="inside_stn" style="width:75%;">
 
             <br></br>
 
@@ -121,7 +122,7 @@
               The diagram below shows our multiple spatial transformer network (MSTN) configuration. This model consists of the same components of the STN model; however between the two sets of convolution and ReLU layers, there is an additional STN added in between. This configuration is used to explore the possibility of adding spatial transformers in between layers of the CNN in order to improve performance as proposed in the paper.
               </p>
 
-              <img src="images/network_mstn.png" alt="network_mstn" style="width:75%;">
+              <img src="images/network_mstn.png" align="middle" alt="network_mstn" style="width:75%;">
             <br></br>
 
 
