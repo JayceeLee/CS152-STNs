@@ -35,7 +35,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link href="adjustJumbotron.css?v=4" rel="stylesheet">
+    <link href="adjustJumbotron.css" rel="stylesheet">
     
   </head>
 
@@ -73,32 +73,72 @@
 
     <div class="container">
 
-      <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>Experimental Design</h1>
-          <h2>Network Design</h2>
-            <h3>Convolutional Neural Network (CNN)</h3>
-              <p>T</p>
+
+        <p>
+        For our experiment, we wished to see whether Spatial Transformers have an impact on the digit identification performance of a convolutional neural network. In order to test this, we decided to measure the digit identification accuracy of three different network configurations.
+        </p>
+
+          <h2><b>Network Design</b></h2>
+          <p> In this section, we detail the specifics of each of the network configurations.</p>
+            
+            <h3><b>Convolutional Neural Network (CNN)</b></h3>
+              
+              <p>
+              The diagram below shows our convolutional neural network (CNN) configuration. This model provides a baseline to compare the performance of the networks that contain Spatial Transformers.
+              </p>
+              
               <img src="images/network_cnn.png" alt="network_cnn" style="width:75%; margin-bottom: 1em;">
+
+              <p>
+              Zooming into CNN, we see that it consists of two sets of a convolutional layer (blue) followed by a ReLU layer (green). After convolution, the image is reshaped and put through a fully connected layer and softmax layer to generate a prediction.
+              </p>
+
               <img src="images/inside_cnn.png" alt="inside_cnn" style="width:75%;">
 
-            <h3>Spatial Transformer (STN) + Convolutional Neural Network</h3>
-              <p>Talk about STN</p>
+            <br></br>
+
+            <h3><b>Spatial Transformer + Convolutional Neural Network (STN)</h3>
+
+              <p>
+              The diagram below shows our spatial transformer network (STN) configuration. This network consists of a spatial transformer that preprocesses the image and then the CNN to predicts the digit. 
+              </p>
+
               <img src="images/network_stn.png" alt="network_stn" style="width:75%; margin-bottom: 1em;">
+
+              <p>
+              The CNN is the same as in the previous section. Let us take a look at the spatial transformer. The localization network of the Spatial Transformer consists of fully connected layer with dropout. The localization network outputs parameters for the tranformer module. The transformer module uses those parameters to create a grid and sampler that maps points on the original image to points on the new image that will be better oriented. 
+
+              </p>
               <img src="images/inside_stn.png" alt="inside_stn" style="width:75%;">
 
-            <h3>Multiple Spatial Neural Networks (MSTN)</h3>
-              <p>Talk about MSTN</p>
+            <br></br>
+
+            <h3><b>Multiple Spatial Transformer Networks (MSTN)</b></h3>
+
+              <p>
+              The diagram below shows our multiple spatial transformer network (MSTN) configuration. This model consists of the same components of the STN model; however between the two sets of convolution and ReLU layers, there is an additional STN added in between. This configuration is used to explore the possibility of adding spatial transformers in between layers of the CNN in order to improve performance as proposed in the paper.
+              </p>
+
               <img src="images/network_mstn.png" alt="network_mstn" style="width:75%;">
-            
-          <h2>Data Set</h2>
-            <p>Talk about Cluttered MNIST and such</p>
+            <br></br>
+
+
+          <h2><b>Data Set</b></h2>
+
+            <p>
+            Our dataset that we use is the cluttered MNIST data set. MNIST is a data set that consists of thousands of images of digits. The cluttered MNIST data set is a modified version of the MNIST data set that takes each digit and applies distortions to each image. Distortions include scaling, rotation, and added noise. The digits below are a sample of the cluttered MNIST data set.
+            </p>
+
             <p style="float: left; font-size: 12pt; text-align: center; width: 150px; margin-right: 1%; margin-bottom: 0.5em;"><img src="images/initial_1.png" style="width: 150px; height: 150px;">Sample Digit: 1</p>
             <p style="float: left; font-size: 12pt; text-align: center; width: 150px; margin-right: 1%; margin-bottom: 0.5em;"><img src="images/initial_2.png" style="width: 150px; height: 150px;">Sample Digit: 2</p>
             <p style="float: left; font-size: 12pt; text-align: center; width: 150px; margin-right: 1%; margin-bottom: 0.5em;"><img src="images/initial_8.png" style="width: 150px; height: 150px;">Sample Digit: 8</p>
             <p style="float: left; font-size: 12pt; text-align: center; width: 150px; margin-right: 1%; margin-bottom: 0.5em;"><img src="images/initial_9.png" style="width: 150px; height: 150px;">Sample Digit: 9</p>
             <p style="clear: both;">
           
+          <h2></h2>
+
       </div>
 
     </div> <!-- /container -->
