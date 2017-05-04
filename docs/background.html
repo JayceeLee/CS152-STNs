@@ -78,6 +78,52 @@
 
       <div class="jumbotron">
         <h1>Background</h1>
+        <p>
+        The primary text of interest our project is focused on is <a href="STN_paper_better.pdf">Spatial Transformer Networks</a> by Jaderburg et al. 
+        This paper primarily presents the idea of Spatial Transformers and using them to improve the performance of convolutional neural network (CNN)-based digit identifiers. 
+        In this section, we provide background on the spatial transformers and how they work.
+        </p>
+
+        <h2> What are Spatial Transformers</h2>
+        <p>
+        Spatial Transformers are modules that can be inserted anywhere within a convolutional neural network setup that specifically learns how to reorient characters and images for better digit recognition performance. They consist of three main parts: a localization network, a grid generator, and sampler. Let us describe each part of the Spatial Transformer.
+        </p>
+
+        <h3>Localization Network</h3>
+        <p>
+        The localization network is essentially a function that takes in the input image and outputs the parameters of the transformation to be applied to the feature map. The paper suggests using a fully-connected network or a convolutional network to learn the parameters with each image; however the exact implementation is left up to the implementer and could be an area of additional investigation.
+        <br /><br />
+        The diagram below summarizes the input and output of the localization network.
+        </p>
+
+        <center><img src="images/local_network.png" alt="localization network" style="width:75%;"></center>
+
+        <h3>Grid Generator</h3>
+        <p>
+        The grid generator creates a grid that maps points from the input image to points on the re-oriented output image. Using the parameters output from the Localization Network, we compute a modified grid that only takes certain points from the original image.
+        <br /><br />
+        In the diagram below, we see an example of how this grid works. In figure (a), the identity paramerters are passed into the transform function, resulting in the same image output. In figure (b), the learned parameters are passed into the transform function. The resulting image (V) is a set of points from the original image, ideally upscaled and reoriented in such a way that the image is now centered and upright.
+        </p>
+
+        <center><img src="images/local_network.png" alt="localization network" style="width:75%;"></center>
+
+        <h3>Sampler</h3> 
+        <p>
+         
+        </p>
+
+      <h2>Integrating Spatial Transformers into CNNs</h2>
+      <p>
+      Discuss integration        
+      </p>
+
+
+      <h2>Extension: Adding Spatial Transformers between CNN Layers</h2>
+      <p>
+      Discuss multi STNs        
+      </p>
+
+
       </div>
 
     </div> <!-- /container -->
