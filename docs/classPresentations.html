@@ -77,12 +77,39 @@
       <div class="jumbotron">
         <h1>Class Presentations</h1>
         <h2> Project Proposal 3/28/17 (5 mins)</h2>
-        <p><a href="https://docs.google.com/presentation/d/196DyecwNQN2HnkGe4u0_RxC6Dq-w9ncDilyI3hFUBhc/edit?usp=sharing">Project Proposal PPT</a></p>
+
+          <div id="proposal" style="height: 600px; display: block;">
+          </div>
+
+          <p><a href="https://docs.google.com/presentation/d/196DyecwNQN2HnkGe4u0_RxC6Dq-w9ncDilyI3hFUBhc/edit?usp=sharing">Google Slides Link</a></p>
+          <p><a href='presentations/final.pdf'>PDF Link</a></p>
+
         <h2> Final Presentation 4/27/17 (15 mins)</h2>
-        <p><a href="https://docs.google.com/presentation/d/1sBngGikvatAJOdg1qx_P_AamOZ36Xq4U0VlvltGEhzs/edit?usp=sharing">Final Presentation PPT</a></p>
+
+
+          <div id="final" style="height: 600px; display: block;">
+          </div>
+
+          <p><a href="https://docs.google.com/presentation/d/1sBngGikvatAJOdg1qx_P_AamOZ36Xq4U0VlvltGEhzs/edit?usp=sharing">Google Slides Link</a></p>
+          <p>Link to PDF <a href='presentations/final.pdf'>PDF Link</a></p>
       </div>
 
     </div> <!-- /container -->
+
+    <script src="pdfobject/pdfobject.min.js"></script>
+    <script>
+
+    var options1 = {
+        fallbackLink: "<p><a href='presentations/proposal.pdf'>PDF Here</a></p>"
+    };
+
+    var options2 = {
+        fallbackLink: "<p><a href='presentations/final.pdf'>PDF Here</a></p>"
+    };
+
+    PDFObject.embed("presentations/proposal.pdf", "#proposal");
+    PDFObject.embed("presentations/final.pdf","#final");
+    </script>
 
 
     <!-- Bootstrap core JavaScript
