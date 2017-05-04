@@ -89,7 +89,7 @@
         Spatial Transformers are modules that can be inserted anywhere within a convolutional neural network setup that specifically learns how to reorient characters and images for better digit recognition performance. They consist of three main parts: a localization network, a grid generator, and sampler. Let us describe each part of the Spatial Transformer.
         </p>
 
-        <center><img src="images/spatial_trans.PNG" alt="spatial_transformer_diagram" style="width:75%;"></center>
+        <center><img src="images/spatial_trans.png" alt="spatial transformer diagram" style="width:75%;"></center>
 
         <h3>Localization Network</h3>
         <p>
@@ -98,7 +98,7 @@
         The diagram below summarizes the input and output of the localization network.
         </p>
 
-        <center><img src="images/local_network.png" alt="localization_network" style="width:75%;"></center>
+        <center><img src="images/local_network.png" alt="localization network" style="width:75%;"></center>
 
         <h3>Grid Generator</h3>
         <p>
@@ -107,12 +107,12 @@
         In the diagram below, we see an example of how this grid works. In figure (a), the identity parameters are passed into the transform function, resulting in the same image output. In figure (b), the learned parameters are passed into the transform function. The resulting image (V) is a set of points from the original image, ideally upscaled and reoriented in such a way that the image is now centered and upright.
         </p>
 
-        <center><img src="images/grid1.png" alt="Example_of_Grid_Generation" style="width:75%;"></center>
+        <center><img src="images/grid1.png" alt="Example of Grid Generation" style="width:75%;"></center>
 
         <p>
         The mathematics of the grid generator can be summarized in the following equation.  
         </p>
-        <center><img src="images/grid2.png" alt="Equation_of_Grid_Generation" style="width:75%;"></center>
+        <center><img src="images/grid2.png" alt="Equation of Grid Generation" style="width:75%;"></center>
         <p>
         Using the matrix of theta values, which is obtained through the localization network, we can determine how each pixel in the new image maps from the original image. <br>
         <!--Note that the equation above is backwards as <i>(x<sub>i</sub><sup>s</sup>,y<sub>i</sub><sup>s</sup>)</i> corresponds to the <i>i</i>-th point on the starting image (U) while <i>(x<sub>i</sub><sup>t</sup>,y<sub>i</sub><sup>t</sup>)</i> corresponds to the <i>i</i>-th point on the output target image (V). -->
